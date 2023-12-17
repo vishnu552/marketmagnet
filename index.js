@@ -1,8 +1,13 @@
 const express = require("express");
 const { dbConnect } = require("./database/dbconnect.js");
+const cors = require("cors");
+const cookieSession = require("cookie-session");
+
 require("dotenv").config();
+
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 dbConnect();
 

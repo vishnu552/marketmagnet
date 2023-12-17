@@ -16,11 +16,16 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
       trim: true,
+      unique: true,
     },
     password: {
       type: String,
       required: true,
     },
+    // token: {
+    //   type: String,
+    //   default: null,
+    // },
   },
   { timestamps: true }
 );
