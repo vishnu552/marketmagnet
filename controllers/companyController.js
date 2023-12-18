@@ -1,8 +1,6 @@
-// controllers/companyController.js
+
 
 const opportunitiesModel = require('../models/opportunities.model');
-const teamModel = require('../models/team.model');
-const investorModel = require('../models/investor.model');
 
 async function getCompanyData(companyName) {
     try {
