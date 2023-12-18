@@ -27,6 +27,10 @@ app.use("/api/v1/team", teamRoute);
 const investorRoute = require("./routes/investor.route.js")
 app.use("/api/v1/investor", investorRoute);
 
+//company route
+const companyRoutes = require("./routes/company.route.js")
+app.use('/api', companyRoutes);
+
 //app start
 app.listen(process.env.PORT, () => {
   console.log(`server started at port number ${process.env.PORT}`);
