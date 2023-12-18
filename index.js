@@ -11,8 +11,19 @@ app.use(cors());
 app.use(express.json());
 dbConnect();
 
+//user route
 const userRoute = require("./routes/user.route.js");
 app.use("/api/v1/auth", userRoute);
+
+//opportunity route
+const oppRoute = require("./routes/opportunites.route.js")
+app.use("/api/v1/opp", oppRoute);
+
+//team route
+const teamRoute = require("./routes/team.route.js")
+app.use("/api/v1/team", teamRoute);
+
+//app start
 app.listen(process.env.PORT, () => {
   console.log(`server started at port number ${process.env.PORT}`);
 });
