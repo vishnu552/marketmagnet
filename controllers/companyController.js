@@ -2,11 +2,11 @@
 
 const opportunitiesModel = require('../models/opportunities.model');
 
-async function getCompanyData(companyName) {
+async function getCompanyData(CompanyName) {
     try {
       const result = await opportunitiesModel.aggregate([
         {
-          $match: { CompanyName: companyName },
+          $match: { CompanyName: CompanyName },
         },
         {
           $lookup: {
