@@ -6,7 +6,7 @@ require("dotenv").config();
 exports.signup = async (req, res) => {
   try {
     const { firstName, lastName, email, password, confirmPassword } = req.body;
-
+    console.log(firstName, lastName, email, password, confirmPassword);
     if (!firstName || !lastName || !email || !password || !confirmPassword) {
       return res.status(403).json({
         message: "All Fields are Required",
