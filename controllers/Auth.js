@@ -36,12 +36,12 @@ exports.signup = async (req, res) => {
       password: hashedPassword,
     });
 
-    jwt.sign({ id: user._id, email }, process.env.JWT_SECRET),
-      {
-        expiresIn: "24h",
-      };
-    user.token = token;
-    user.password = undefined;
+    // jwt.sign({ id: user._id, email }, process.env.JWT_SECRET),
+    //   {
+    //     expiresIn: "24h",
+    //   };
+    // user.token = token;
+    // user.password = undefined;
 
     return res.status(200).json({
       data: user,
