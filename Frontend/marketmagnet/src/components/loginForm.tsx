@@ -10,6 +10,7 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 interface LoginData {
   email: string;
@@ -21,7 +22,7 @@ const LoginPage: React.FC = () => {
     email: "",
     password: "",
   });
-
+  const navigate = useNavigate();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setLoginData((prevData) => ({
@@ -38,6 +39,8 @@ const LoginPage: React.FC = () => {
       loginData
     );
     console.log("Login Data Submitted:", response);
+    alert(` Hello you are Logged in successfully`);
+    navigate("/desktop");
   };
 
   return (
