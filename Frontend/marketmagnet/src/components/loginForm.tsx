@@ -39,7 +39,7 @@ const LoginPage: React.FC = () => {
       loginData
     );
     console.log("Login Data Submitted:", response);
-    alert(` Hello you are Logged in successfully`);
+    alert(` Hello ${response.data.user.firstName} Logged in successfully`);
     navigate("/desktop");
   };
 
