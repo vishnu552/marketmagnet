@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <Outlet />
         <Footer />
-        {/* <Form /> */}
       </AppProvider>
     </>
   );
