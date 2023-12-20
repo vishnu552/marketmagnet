@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzeldisplay=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Manrope;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #landing_1 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #landing_1 img {
+    width: 100px;
+  }
+
+  #landing_2 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #landing_2 img {
+    width: 1000px;
+  }
+
+  .hero_seaction_1 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .product_1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards_1 {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .switch_1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .insider_father {
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .alert_bar {
+  }
+}
+
+.alert_1 {
+  box-shadow: 0 4px 8px #0000003d;
+}
+
+.aif_1 {
+  box-shadow: 3px 4px 8px #0000003d;
+}
+
+.image-grid {
+  --gap: 16px;
+  --num-cols: 4;
+  --row-height: 220px;
+  box-sizing: border-box;
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.image-grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.image-grid-col-2 {
+  grid-column: span 2;
+}
+
+.image-grid-row-2 {
+  grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
+
+#hero-section {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  min-height: 100vh;
+  background-color: #0e141c;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}
+
+/* navbar css */
+
+.navb-bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-flow {
+  overflow: hidden;
+}
+
+.animated-text {
+  position: relative;
+  animation: moveFromRight 2s ease forwards;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+@keyframes moveFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* about */
+
+.skill-container-right {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+}
+
+.blob-style {
+  position: absolute;
+  z-index: -5;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate {
+  50% {
+    top: 64%;
+    left: 66%;
+  }
+}
+
+@media (max-width: 742px) {
+  .comp-grid {
+    grid-template-columns: repeat(2, minmax(48%, 1fr));
+  }
+}
+
+@media (max-width: 742px) {
+  .service-grid {
+    grid-template-columns: repeat(2, minmax(48%, 1fr));
+  }
+}
+
+/* success */
+.wrapper1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo12 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo12 img {
+  width: 30px;
+}
+
+.bg1 {
+  background-color: antiquewhite;
+}
+
+.payment12 {
+  /* border: 2px solid red; */
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+.btn-pera12 {
+  /* border: 2px solid red; */
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* become partner */
+
+.father-partner {
+  background-image: linear-gradient(115deg, #9f7aea, #fee2fe);
+}
+
+.bg-father {
+  background-image: url("https://github.com/phithounsavanh/Tailwind-Simple-Signup-Page/blob/master/images/Register-Background.png?raw=true");
+}
