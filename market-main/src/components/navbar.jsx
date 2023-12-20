@@ -90,6 +90,11 @@ const Navbar = () => {
                 REGISTER
               </li>
             </Link>
+            <Link to="/login">
+              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-amber-600 p-2 rounded-md hover:shadow-lg  ">
+                LOGIN
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

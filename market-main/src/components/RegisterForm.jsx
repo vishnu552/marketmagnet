@@ -2,23 +2,22 @@ import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
 import { SignUp } from "../api/signupLoginApi";
 import { useNavigate } from "react-router-dom";
-
+import getOtp from "../api/getOtp";
 
 function RegisterForm() {
   const navigate = useNavigate();
   const form = useForm();
-  const { register, control, handleSubmit, formState } = form;
+  const { register, control, handleSubmit, formState, getValues } = form;
   const { errors } = formState;
-  const onSubmit = async(data) => {
-    try{
-      const response = await SignUp(data)
+  const onSubmit = async (data) => {
+    try {
+      const response = await SignUp(data);
       console.log(response);
-      console.log('Registration successful:', response.data);
+      console.log("Registration successful:", response.data);
       navigate("/opportunities");
-      localStorage.setItem("user",response.data.firstName)
-    }
-    catch (error) {
-      console.error('Registration failed:', error.message);
+      localStorage.setItem("user", response.data.firstName);
+    } catch (error) {
+      console.error("Registration failed:", error.message);
     }
   };
   return (
@@ -96,37 +95,45 @@ function RegisterForm() {
                 message: "Invalid Email format",
               },
             })}
-            className={` h-10 mt-1 p-2 border w-full rounded-md ${
+            className={` h-10 mt-1 p-2 border w-5/6 rounded-s-md ${
               errors.email ? "border-rose-800" : "border-gray-300"
             }`}
           />
+          <button
+            className=" w-1/6 bg-orange-400 text-white h-10 text-lg rounded-e-md"
+            onClick={() => {
+              const email = getValues("email");
+              console.log(email);
+              getOtp(email);
+            }}
+          >
+            get otp
+          </button>
           <p className="text-rose-800 text-lg">{errors.email?.message}</p>
         </div>
 
-        {/* <div>
+        <div>
           <label
-            htmlFor="contactNumber"
+            htmlFor="otp"
             className="block text-xl font-medium text-gray-700"
           >
-            Mobile No.
+            OTP
           </label>
           <input
             type="text"
-            id="contactNumber"
-            {...register("contactNumber", {
+            id="otp"
+            {...register("otp", {
               required: {
                 value: true,
-                message: "contact Number is Required Field",
+                message: "OTP is Required Field",
               },
             })}
             className={` h-10 mt-1 p-2 border w-full rounded-md ${
-              errors.contactNumber ? "border-rose-800" : "border-gray-300"
+              errors.otp ? "border-rose-800" : "border-gray-300"
             }`}
           />
-          <p className="text-rose-800 text-lg">
-            {errors.contactNumber?.message}
-          </p>
-        </div> */}
+          <p className="text-rose-800 text-lg">{errors.otp?.message}</p>
+        </div>
         <div>
           <label
             htmlFor="password"
@@ -173,12 +180,14 @@ function RegisterForm() {
             {errors.confirmPassword?.message}
           </p>
         </div>
-        <button
-          className="bg-orange-400 w-full text-white p-3 rounded-md hover:bg-orange-600"
-          type="submit"
-        >
-          Sign Up
-        </button>
+        <div>
+          <button
+            className="bg-orange-400 w-full text-white p-3 rounded-md hover:bg-orange-600"
+            type="submit"
+          >
+            Sign Up
+          </button>
+        </div>
       </form>
       <DevTool control={control} />
     </div>

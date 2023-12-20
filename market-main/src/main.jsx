@@ -9,6 +9,7 @@ import Insider from "./components/insider.jsx";
 import Partner from "./pages/Partner.jsx";
 import Success from "./pages/success.jsx";
 import Register from "./pages/Register.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register />,
+      },
+      {
+        path: "/login",
+        element: <LoginPage />,
       },
       { path: "/success", element: <Success /> },
     ],
