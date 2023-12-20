@@ -5,9 +5,20 @@ import { opportunities } from "../api/opportunities";
 
 import { useEffect, useState } from "react";
 
+import { useNavigate } from "react-router-dom"; //
+
 
 function Aif() {
   const [item, setItem] = useState([]);
+  const navigate = useNavigate();
+  const isUserLoggedIn = localStorage.getItem("user"); 
+
+  useEffect(() => {
+    if (!isUserLoggedIn) {
+      navigate("/login"); // Change "/login" to the actual login page path
+    }
+  }, [isUserLoggedIn, navigate]);
+ 
 
   useEffect(() => {
     const handleGetOpportunities = async () => {
@@ -18,10 +29,8 @@ function Aif() {
         console.error('Error getting opportunities', error.message);
       }
     };
-
-    // Call the function to fetch opportunities when the component mounts
     handleGetOpportunities();
-  }, []); // Pass an empty dependency array to run the effect only once on mount
+  }, []); 
 
   console.log(item, "item");
 
@@ -39,32 +48,15 @@ function Aif() {
             <option>Insurance Lead</option>
           </select>
         </div>
-        {/* <div className="flex justify-around bg-white w-[30%] h-20 rounded-full cursor-pointer switch_1">
-          <button
-            className="text-3xl mx-4 hover:bg-[#41ce8e] rounded-full w-[30%]"
-            onClick={() => {
-              filterCard("available");
-            }}
-          >
-            Available
-          </button>
-          <button
-            className="text-3xl mx-4 hover:bg-[#41ce8e] w-[30%] rounded-full"
-            onClick={() => {
-              filterCard("funded");
-            }}
-          >
-            funded
-          </button>
-        </div> */}
       </div>
-      <div className="grid justify-center" data-aos="fade-up">
-        <div className=" grid grid-cols-1 place-content-center  lg:grid-cols-3 md:grid-cols-2 cards_1">
+      {localStorage.getItem("user")? <div className="grid justify-center" data-aos="fade-up">
+        <div className=" flex  place-content-center  lg:flex-cols md:grid-cols-2 cards_1">
           {item.map((property ,i) => (
             <Card key={i} property={property} />
           ))}
         </div>
-      </div>
+      </div>:null}
+      
     </>
   );
 }

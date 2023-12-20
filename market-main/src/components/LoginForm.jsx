@@ -1,15 +1,19 @@
-import React from "react";
+
 import { useForm } from "react-hook-form";
 import { Login } from "../api/signupLoginApi";
+import { useNavigate } from "react-router-dom";
 
 function LoginForm() {
   const { register, handleSubmit, formState } = useForm();
   const { errors } = formState;
+  const navigate = useNavigate();
 
   const onSubmit = async (data) => {
     try {
       const res = await Login(data);
       console.log("login response", res);
+      localStorage.setItem('user',res.data.firstName)
+      navigate("/opportunities")
     } catch (error) {
       console.log(error);
     }
