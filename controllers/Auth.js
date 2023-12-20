@@ -94,19 +94,18 @@ exports.login = async (req, res) => {
     const isPasswordMatch = await bcrypt.compare(password, user.password);
 
     if (user && isPasswordMatch) {
-      const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
-        expiresIn: "24h",
-      });
-      user.token = token;
-      user.password = undefined;
+      // const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
+      //   expiresIn: "24h",
+      // });
+      // user.token = token;
+      // user.password = undefined;
 
-      const options = {
-        expires: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000),
-        httpOnly: true,
-      };
-      res.status(200).cookie("token", token, options).json({
+      // const options = {
+      //   expires: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000),
+      //   httpOnly: true,
+      // };
+      res.status(200).json({
         success: true,
-        token,
         user,
         message: "user Login successfull",
       });
