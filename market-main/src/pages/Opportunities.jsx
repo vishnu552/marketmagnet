@@ -13,11 +13,12 @@ function Aif() {
   const navigate = useNavigate();
   const isUserLoggedIn = localStorage.getItem("user"); 
 
-  useEffect(() => {
-    if (!isUserLoggedIn) {
-      navigate("/login"); // Change "/login" to the actual login page path
-    }
-  }, [isUserLoggedIn, navigate]);
+  // useEffect(() => {
+  //   if (!isUserLoggedIn) {
+  //     navigate("/login"); // Change "/login" to the actual login page path
+  //   }
+  // }, [isUserLoggedIn, navigate]);
+  
  
 
   useEffect(() => {
@@ -49,13 +50,20 @@ function Aif() {
           </select>
         </div>
       </div>
-      {localStorage.getItem("user")? <div className="grid justify-center" data-aos="fade-up">
+      {isUserLoggedIn? 
+      <div className="grid justify-center" data-aos="fade-up">
         <div className=" flex  place-content-center  lg:flex-cols md:grid-cols-2 cards_1">
           {item.map((property ,i) => (
             <Card key={i} property={property} />
           ))}
         </div>
-      </div>:null}
+      </div>:
+      <div className="grid justify-center gap-12  ">
+        <h1 className="text-3xl">LOGIN TO SEE OPPORTUNITIES</h1>
+        <button className="text-4xl block mt-4 lg:inline-block lg:-mt-3 text-white mr-4  bg-amber-600 p-2 rounded-md hover:shadow-lg " onClick={() =>navigate("/login")}>Login</button>
+      </div>
+      
+          }
       
     </>
   );

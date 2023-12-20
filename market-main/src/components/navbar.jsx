@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../components/navbar.css";
 import logo from "../assets/assets/MARKETS__2_-removebg-preview.png";
 import { GiHamburgerMenu } from "react-icons/gi";
