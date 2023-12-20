@@ -1,28 +1,45 @@
 const User = require("../models/user.model.js");
 const bcrypt = require("bcrypt");
+const OTP = require("../models/otp.model.js");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 exports.signup = async (req, res) => {
   try {
-    const { firstName, lastName, email, password, confirmPassword } = req.body;
-    console.log(firstName, lastName, email, password, confirmPassword);
-    if (!firstName || !lastName || !email || !password || !confirmPassword) {
+    const { firstName, lastName, email, password, confirmPassword, otp } =
+      req.body;
+    if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !password ||
+      !confirmPassword ||
+      !otp
+    ) {
       return res.status(403).json({
         message: "All Fields are Required",
         success: false,
-      });
-    }
-    if (password !== confirmPassword) {
-      return res.status(400).json({
-        message: "Password and Confirm Password not Match",
-        success: "false",
       });
     }
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({
         message: "Email already exists. Please use another Email.",
+        success: "false",
+      });
+    }
+    const otpResponse = await OTP.find({ email })
+      .sort({ createdAt: -1 })
+      .limit(1);
+    if (otpResponse.length === 0 || otp !== otpResponse[0].otp) {
+      return res.status(400).json({
+        success: false,
+        message: "The OTP is not valid",
+      });
+    }
+    if (password !== confirmPassword) {
+      return res.status(400).json({
+        message: "Password and Confirm Password not Match",
         success: "false",
       });
     }
@@ -43,8 +60,8 @@ exports.signup = async (req, res) => {
     // user.token = token;
     // user.password = undefined;
 
-    return res.status(200).json({
-      data: user,
+    return res.status(201).json({
+      user,
       message: "user registered successfully",
       success: true,
     });
