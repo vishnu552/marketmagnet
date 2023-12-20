@@ -100,6 +100,7 @@ function RegisterForm() {
             }`}
           />
           <button
+          type="button"
             className=" w-1/6 bg-orange-400 text-white h-10 text-lg rounded-e-md"
             onClick={() => {
               const email = getValues("email");
