@@ -3,7 +3,7 @@ import Img1 from "../assets/assets/blob vector.png";
 function About() {
   return (
     <div id="aboutus" className="w-full h-auto px-20  mb-20  p-12 text-justify">
-      <h2 className="text-black text-4xl md:text-6xl text-center m-10 font-sans font-semibold">
+      <h2 className="text-[#3a41bd] text-bold text-4xl md:text-6xl text-center m-10 font-sans font-semibold">
         About Us
       </h2>
 

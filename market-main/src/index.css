@@ -130,6 +130,23 @@
   position: relative;
 }
 
+/* navbar bg  */
+
+/* login bg */
+
+.log-bg{
+  background-image: url("./assets//assets/18129294.jpg");
+  background-size:cover;
+  background-position: center;
+}
+
+
+/* discription bg */
+
+.bg-dic{
+  background-image: linear-gradient(to left, #f6f6f6, #d6d3da); 
+}
+
 /* navbar css */
 
 .navb-bg {

@@ -10,6 +10,9 @@ import Partner from "./pages/Partner.jsx";
 import Success from "./pages/success.jsx";
 import Register from "./pages/Register.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
+import Discl from"./pages/discl.jsx";
+import Privacy from"./pages/privacy.jsx";
+import Terms from "./pages/terms.jsx";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +46,18 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
+      },
+      {
+        path: "/discl",
+        element: <Discl />,
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />,
+      },
+      {
+        path: "/terms",
+        element: <Terms />,
       },
       { path: "/success", element: <Success /> },
     ],

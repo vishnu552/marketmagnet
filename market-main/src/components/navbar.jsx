@@ -12,7 +12,7 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed  z-10 min-w-full">
+    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed  z-10 min-w-full bg-nav">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <div className="w-60 h-20">
           <Link to="/">

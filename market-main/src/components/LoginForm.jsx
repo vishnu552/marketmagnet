@@ -19,10 +19,11 @@ function LoginForm() {
     }
   };
   return (
-    <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto mt-40">
+    <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto mt-30">
       <div className=" text-center py-8">
-        <h1 className="text-blue-950 text-3xl font-semibold">Log In</h1>
-        <p className="text-gray-700 text-xl font-medium">Welcome Back</p>
+        <h1 className="text-[#3a41bd] text-5xl font-semibold">Log In</h1>
+        <br />
+        <p className="text-gray-700 text-3xl font-medium">Welcome Back</p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <div>
@@ -75,7 +76,7 @@ function LoginForm() {
         </div>
         <div>
           <button
-            className="bg-orange-400 w-full text-white p-3 rounded-md hover:bg-orange-600"
+            className="bg-[#3a41bd] w-full text-white p-3 rounded-md hover:bg-white hover:text-black"
             type="submit"
           >
             Login

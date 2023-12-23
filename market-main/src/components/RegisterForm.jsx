@@ -23,8 +23,9 @@ function RegisterForm() {
   return (
     <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto mt-40">
       <div className=" text-center py-8">
-        <h1 className="text-blue-950 text-3xl font-semibold">Register</h1>
-        <p className="text-gray-700 text-xl font-medium">
+        <h1 className="text-[#3a41bd] text-5xl font-semibold">Register</h1>
+        <br />
+        <p className="text-gray-700 text-3xl font-medium">
           Sign up to create an account
         </p>
       </div>
@@ -101,7 +102,7 @@ function RegisterForm() {
           />
           <button
           type="button"
-            className=" w-1/6 bg-orange-400 text-white h-10 text-lg rounded-e-md"
+            className=" w-1/6 bg-[#3a41bd] text-white h-10 text-lg rounded-e-md"
             onClick={() => {
               const email = getValues("email");
               console.log(email);
@@ -183,7 +184,7 @@ function RegisterForm() {
         </div>
         <div>
           <button
-            className="bg-orange-400 w-full text-white p-3 rounded-md hover:bg-orange-600"
+            className="bg-[#3a41bd] w-full text-white p-3 rounded-md hover:bg-white hover:text-black"
             type="submit"
           >
             Sign Up

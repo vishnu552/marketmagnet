@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import logo from "../assets/assets/MARKETS__2_-removebg-preview.png";
 
 function Footer() {
@@ -30,21 +31,30 @@ function Footer() {
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <Link to="/privacy">
                 <li className="mb-4">
                   <a href="#" className="hover:underline text-[18px]">
                     Privacy Policy
                   </a>
                 </li>
+                </Link>
+
+                <Link to="/terms">
                 <li className="mb-4">
                   <a href="#" className="hover:underline text-[18px]">
                     Terms &amp; Conditions
                   </a>
                 </li>
+                </Link>
+
+                <Link to="/discl">
                 <li>
                   <a href="#" className="hover:underline text-[18px]">
                     Disclaimer
                   </a>
                 </li>
+                </Link>
+
               </ul>
             </div>
           </div>
@@ -53,7 +63,7 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div>
             <span className="text-[15px] text-gray-500 sm:text-center dark:text-gray-400">
-              Stakoner- All Rights Reserved.
+              HubAlt- All Rights Reserved.
             </span>
             <p className="text-[14px] text-gray-500 sm:text-center dark:text-gray-400">
               Market Magnet Private Limited
