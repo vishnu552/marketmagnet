@@ -12,7 +12,7 @@ function UserReviews() {
       id: 1,
       name: "Sudhir Kumar",
       comment:
-        "Being a predominantly online user seeking platforms to invest, I stumbled upon Finizon and it has been an absolute game-changer for me. The payment co...",
+        "Being a predominantly online user seeking platforms to invest, I stumbled upon HubAlt and it has been an absolute game-changer for me. The payment co...",
       img: img1,
     },
     {

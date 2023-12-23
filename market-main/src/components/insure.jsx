@@ -41,7 +41,7 @@ function Insure() {
           <div className="">
             <div className="lg:w-2/2">
               <img
-                src="https://finizoninsurance.com/assets/img/protect_right_illustration.svg"
+                src="https://HubAltinsurance.com/assets/img/protect_right_illustration.svg"
                 alt="" className="w-[280px]"
               />
             </div>
@@ -68,7 +68,7 @@ function Insure() {
 
           <div className="lg:w-2/2 why_child">
             <img
-              src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg"
+              src="https://HubAltinsurance.com/assets/img/feature_illustration_1.svg"
               alt="hero-logo"
               className="ml-auto w-[280px] "
             />
@@ -82,7 +82,7 @@ function Insure() {
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
-              src="https://finizoninsurance.com/assets/img/feature_illustration_2.svg"
+              src="https://HubAltinsurance.com/assets/img/feature_illustration_2.svg"
               alt="hero-logo"
               className="ml-auto w-[280px]"
             />
@@ -119,7 +119,7 @@ function Insure() {
 
           <div className="lg:w-2/2">
             <img
-              src="https://finizoninsurance.com/assets/img/feature_illustration_3.svg"
+              src="https://HubAltinsurance.com/assets/img/feature_illustration_3.svg"
               alt="hero-logo"
               className="ml-auto w-[280px]"
             />
@@ -133,7 +133,7 @@ function Insure() {
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
-              src="https://finizoninsurance.com/assets/img/feature_illustration_4.svg"
+              src="https://HubAltinsurance.com/assets/img/feature_illustration_4.svg"
               alt="hero-logo"
               className="ml-auto w-[280px]" 
             />
@@ -161,7 +161,7 @@ function Insure() {
         <section className="pcontainer_1 flex flex-wrap items-center justify-evenly mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
-              src="https://finizoninsurance.com/assets/img/Partnership-bro.svg"
+              src="https://HubAltinsurance.com/assets/img/Partnership-bro.svg"
               alt=""
             />
           </div>
@@ -179,7 +179,7 @@ function Insure() {
             <div className="max-w-full text-gray-500 text-[20px] ml-10">
               <div className="flex gap-2">
                 <img
-                  src="https://finizoninsurance.com/assets/img/right-arrow.png"
+                  src="https://HubAltinsurance.com/assets/img/right-arrow.png"
                   alt="" className="w-8"
                 />
                 <p>Make decisions closely with the experts</p>
@@ -187,7 +187,7 @@ function Insure() {
               <br />
               <div className="flex gap-2">
                 <img
-                  src="https://finizoninsurance.com/assets/img/right-arrow.png"
+                  src="https://HubAltinsurance.com/assets/img/right-arrow.png"
                   alt="" className="w-8"
                 />
                 <p>Find the right financial products and tools for you</p>
@@ -195,7 +195,7 @@ function Insure() {
               <br />
               <div className="flex gap-2">
                 <img
-                  src="https://finizoninsurance.com/assets/img/right-arrow.png"
+                  src="https://HubAltinsurance.com/assets/img/right-arrow.png"
                   alt="" className="w-8"
                 />
                 <p>Never miss out on the best available offers</p>

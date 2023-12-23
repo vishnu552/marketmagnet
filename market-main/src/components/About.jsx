@@ -12,7 +12,7 @@ function About() {
       </div>
 
       <p className="text-gray-800 text-2xl md:text-3xl font-sans">
-        Hub alt,A digital marketplace strives to make the Alternative
+        HubAlt,A digital marketplace strives to make the Alternative
         investment space more inclusive by granting retail investors access to
         the opportunities that were previously available only to the wealthy 1%.
         At the same time, we want to make it hassle free for founders to raise

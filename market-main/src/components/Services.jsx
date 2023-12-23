@@ -33,9 +33,12 @@ function Services() {
       text: "More Opportunities are live, come and add to your portfolio",
     },
   ];
+
+
   return (
-    <div className=" my-40 w-screen grid place-items-center ">
-      <div className=" w-3/4 grid grid-cols-3 gap-16 service-grid">
+    <div className=" my-80 w-screen grid place-items-center ">
+      <h1 className="text-6xl text-[#3a41bd] text-bold mb-20">Our Services</h1>
+      <div className=" w-3/4 grid grid-cols-3 gap-16 service-grid mb-10">
         {services.map((service) => (
           <div
             className="text-center flex flex-col items-center justify-center "

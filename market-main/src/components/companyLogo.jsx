@@ -19,7 +19,7 @@ function CompanyLogo() {
         className=" w-full flex items-center flex-col mt-40"
         data-aos="fade-up"
       >
-        <h2 className="text-4xl text-gray-700 font-semibold">
+        <h2 className="text-6xl text-[#3a41bd] font-semibold">
           Our Partnerships
         </h2>
         <div className="w-3/4 grid grid-cols-4 gap-8 comp-grid ">

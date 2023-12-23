@@ -12,7 +12,7 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed  z-10 min-w-full bg-nav">
+    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed  z-10 min-w-full">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <div className="w-60 h-20">
           <Link to="/">
@@ -32,6 +32,7 @@ const Navbar = () => {
           >
             <GiHamburgerMenu />
           </div>
+
           <div
             className={`fill-current text-2xl text-red-500 ${
               isOpen ? "block" : "hidden"
@@ -49,12 +50,12 @@ const Navbar = () => {
         <div className="text-sm  lg:flex-grow">
           <ul className=" md:flex justify-end">
             <Link to="/insurance">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 INSURENCE
               </li>
             </Link>
             <Link to="/opportunities">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 OPPORTUNITIES
               </li>
             </Link>
@@ -62,13 +63,13 @@ const Navbar = () => {
               <li>
                 <a
                   href="#aboutus"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]"
                 >
                   ABOUT US
                 </a>
                 <a
                   href="#portfolio"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]"
                 >
                   FAQ
                 </a>
@@ -76,22 +77,22 @@ const Navbar = () => {
             )}
 
             <Link to="/becomepartner">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 BECOME PARTNER
               </li>
             </Link>
             <Link to="/raisefunds">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 RAISE FUNDING
               </li>
             </Link>
             <Link to="/register">
-              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-amber-600 p-2 rounded-md hover:shadow-lg  ">
+              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 REGISTER
               </li>
             </Link>
             <Link to="/login">
-              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-amber-600 p-2 rounded-md hover:shadow-lg  ">
+              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 LOGIN
               </li>
             </Link>
