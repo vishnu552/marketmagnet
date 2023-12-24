@@ -14,6 +14,7 @@ import Discl from "./pages/discl.jsx";
 import Privacy from "./pages/privacy.jsx";
 import Terms from "./pages/terms.jsx";
 import LifeInsurance from "./components/LifeInsurance.jsx";
+import GenralInsurance from "./components/GenralInsurance.jsx";
 
 const router = createBrowserRouter([
   {
@@ -41,8 +42,8 @@ const router = createBrowserRouter([
         element: <LifeInsurance />,
       },
       {
-        path: "/opportunities/generalinsurance",
-        element: <LifeInsurance />,
+        path: "/opportunities/GenralInsurance",
+        element: <GenralInsurance />,
       },
       {
         path: "/becomepartner",

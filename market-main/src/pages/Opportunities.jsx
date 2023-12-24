@@ -141,7 +141,7 @@ function Aif() {
                     </p>
                     <burron
                       onClick={() =>
-                        navigate("/opportunities/generalinsurance")
+                        navigate("/opportunities/GenralInsurance")
                       }
                       className="
                      inline-block
