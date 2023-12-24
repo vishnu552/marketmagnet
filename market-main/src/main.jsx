@@ -5,14 +5,15 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Insure from "./components/insure.jsx";
 import Opportunities from "./pages/Opportunities.jsx";
 import Home from "./pages/Home.jsx";
-import Insider from "./components/insider.jsx";
+import Insider from "./components/LifeInsurance.jsx";
 import Partner from "./pages/Partner.jsx";
 import Success from "./pages/success.jsx";
 import Register from "./pages/Register.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
-import Discl from"./pages/discl.jsx";
-import Privacy from"./pages/privacy.jsx";
+import Discl from "./pages/discl.jsx";
+import Privacy from "./pages/privacy.jsx";
 import Terms from "./pages/terms.jsx";
+import LifeInsurance from "./components/LifeInsurance.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,17 +24,25 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      {
-        path: "/insurance",
-        element: <Insure />,
-      },
+      // {
+      //   path: "/insurance",
+      //   element: <Insure />,
+      // },
       {
         path: "/opportunities",
         element: <Opportunities />,
       },
       {
-        path: "/opportunities/:id",
-        element: <Insider />,
+        path: "/opportunities/lifeinsurance",
+        element: <LifeInsurance />,
+      },
+      {
+        path: "/opportunities/healthinsurance",
+        element: <LifeInsurance />,
+      },
+      {
+        path: "/opportunities/generalinsurance",
+        element: <LifeInsurance />,
       },
       {
         path: "/becomepartner",

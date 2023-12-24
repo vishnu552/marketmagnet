@@ -12,7 +12,7 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed  z-10 min-w-full">
+    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed top-0  z-10 min-w-full">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <div className="w-40 pb-10h-20">
           <Link to="/">
@@ -49,11 +49,6 @@ const Navbar = () => {
       >
         <div className="text-sm  lg:flex-grow">
           <ul className=" md:flex justify-end">
-            <Link to="/insurance">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
-                INSURENCE
-              </li>
-            </Link>
             <Link to="/opportunities">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 OPPORTUNITIES
@@ -68,7 +63,7 @@ const Navbar = () => {
                   ABOUT US
                 </a>
                 <a
-                  href="#portfolio"
+                  href="#"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]"
                 >
                   FAQ
@@ -81,11 +76,11 @@ const Navbar = () => {
                 BECOME PARTNER
               </li>
             </Link>
-            <Link to="/raisefunds">
+            {/* <Link to="/raisefunds">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 RAISE FUNDING
               </li>
-            </Link>
+            </Link> */}
             <Link to="/register">
               <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 REGISTER
