@@ -41,23 +41,26 @@ function Aif() {
           <h1 className=" text-center text-6xl text-bold text-[#3a41bd]">
             Types Of Insurance
           </h1>
-          <p className="text-center py-10 text-2xl">
-            There are two main types of insurance in India: Life Insurance and
-            General Insurance. Health Insurance, which is a sub-set of General
-            Insurance, is also gaining prominence due to the high cost of
-            medical care that needs to be covered.
-          </p>
+
+          <div className="flex justify-center">
+            <p className="text-center w-[80%] py-10 text-2xl">
+              There are two main types of insurance in India: Life Insurance and
+              General Insurance. Health Insurance, which is a sub-set of General
+              Insurance, is also gaining prominence due to the high cost of
+              medical care that needs to be covered.
+            </p>
+          </div>
         </div>
 
         <section class="pt-20 lg:pt-[30px] pb-10 lg:pb-0 bg-[#F3F4F6] flex justify-center">
-          <div class="container w-[90%]">
+          <div class="container w-[80%]">
             <div class="flex flex-wrap -mx-4">
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div class="bg-white rounded-lg overflow-hidden mb-10">
                   <img
                     src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221223125246/LIFE-INSURANCE-2.png"
                     alt="image"
-                    class="w-full"
+                    class="w-full h-[186px]"
                   />
                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3
@@ -238,7 +241,7 @@ function Aif() {
           </div>
         </div>
       ) : (
-        <div className="grid justify-center gap-12  ">
+        <div className="grid justify-center gap-12 mt-20 mb-20 ">
           <h1 className="text-3xl">LOGIN TO SEE OPPORTUNITIES</h1>
           <button
             className="text-4xl block mt-4 lg:inline-block lg:-mt-3 text-white mr-4  bg-[#3a41bd] p-2 rounded-md hover:shadow-lg "

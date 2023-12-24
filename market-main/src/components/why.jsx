@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+
 function Why() {
   return (
     <div className="mt-20" data-aos="fade-up">
@@ -22,7 +23,7 @@ function Why() {
          
           <div class="w-full bg-gray-200 rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
-              <img class="object-center object-cover rounded-full h-36 w-36" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80" alt="photo" />
+              <img class="object-center object-cover rounded-full h-36 w-36" src="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=900&t=st=1703425651~exp=1703426251~hmac=ee8a3b09ea5ce0d9c06615a61735d093de58307b074f5005e84615ffa7a1657e" alt="photo" />
             </div>
             <div class="text-center">
               <p class="text-2xl text-gray-900 font-bold mb-2">Prakash Sharma</p>
@@ -51,7 +52,7 @@ function Why() {
           </div>
           <div class="w-full bg-gray-200 rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
-              <img class="object-center object-cover rounded-full h-36 w-36" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+              <img class="object-center object-cover rounded-full h-36 w-36" src="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=900&t=st=1703425651~exp=1703426251~hmac=ee8a3b09ea5ce0d9c06615a61735d093de58307b074f5005e84615ffa7a1657e" alt="photo" />
             </div>
             <div class="text-center">
               <p class="text-2xl text-gray-900 font-bold mb-2">Rakesh Shankar</p>
@@ -80,7 +81,7 @@ function Why() {
           </div>
           <div class="w-full bg-gray-200 rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
-              <img class="object-center object-cover rounded-full h-36 w-36" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+              <img class="object-center object-cover rounded-full h-36 w-36" src="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=900&t=st=1703425651~exp=1703426251~hmac=ee8a3b09ea5ce0d9c06615a61735d093de58307b074f5005e84615ffa7a1657e" alt="photo" />
             </div>
 
             <div class="text-center">
@@ -111,7 +112,7 @@ function Why() {
           </div>
           <div class="w-full bg-gray-200 rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
-              <img class="object-center object-cover rounded-full h-36 w-36" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80" alt="photo" />
+              <img class="object-center object-cover rounded-full h-36 w-36" src="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=900&t=st=1703425651~exp=1703426251~hmac=ee8a3b09ea5ce0d9c06615a61735d093de58307b074f5005e84615ffa7a1657e" alt="photo" />
             </div>
 
             <div class="text-center">
