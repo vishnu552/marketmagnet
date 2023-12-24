@@ -12,10 +12,10 @@ const ImageSlider = () => {
                 <span className="text-[#3a41bd] text-7xl tracking-widest text-bold ">
                   Hub alt.
                 </span>
-                <h1 class="animated-text text-bold">
+                <h1 class="animated-text text-bold mt-7 mb-7 text-5xl text-gray-700">
                   Investment Opportunity Marketplace for Retail Investors.
                 </h1>
-                <p className=" text-[#fff] text-4xl tracking-widest mt-3 text-bold">
+                <p className="animated-text text-gray-700 text-4xl tracking-widest mt-3 text-bold">
                   Create Long term wealth by becoming Angel Investor.
                 </p>
               </div>

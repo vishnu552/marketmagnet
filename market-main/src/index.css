@@ -118,6 +118,7 @@
 
 #hero-section {
   background-image: url("./assets/assets/header2.jpg");
+  /* opacity:0.8; */
   min-height: 100vh;
   background-color: #0e141c;
   background-position: 50% 0;
@@ -162,8 +163,8 @@
 .animated-text {
   position: relative;
   animation: moveFromRight 2s ease forwards;
-  color: white;
-  font-size: 35px;
+  /* color: white; */
+  /* font-size: 35px; */
   letter-spacing: 3px;
 }
 
