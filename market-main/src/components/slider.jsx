@@ -9,7 +9,7 @@ const ImageSlider = () => {
           <div className="">
             <div id="BoxWrapper">
               <div class="text-flow ml-8">
-                <span className="text-[#3a41bd] text-7xl tracking-widest text-bold ">
+                <span className="animated-text1 text-[#3a41bd] text-7xl tracking-widest text-bold ">
                   Hub alt.
                 </span>
                 <h1 class="animated-text text-bold mt-7 mb-7 text-5xl text-gray-700">
