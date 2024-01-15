@@ -176,9 +176,9 @@ function Partner() {
                 </select>
               </div>
 
-              <div className="mt-5"> 
+              <div className="mt-5">
                 <select id="salary" className="border border-gray-400 py-1 px-2 w-full">
-                <option value="" selected="selected" disabled="disabled">-- select income--</option>
+                  <option value="" selected="selected" disabled="disabled">-- select income--</option>
                   <option value="1">5000-20,000</option>
                   <option value="2">30,000-60,000</option>
                   <option value="3">80,000-1,20,000</option>
@@ -186,8 +186,17 @@ function Partner() {
                 </select>
               </div>
 
-              <div className="mt-6">
-                <input type="checkbox" className="border border-gray-400" />
+              <div className="mt-6 flex gap-4">
+                {/* ----- */}
+
+                <label class="container-father">
+                  <input type="checkbox"/>
+                    <div class="checkmark"></div>
+                </label>
+
+
+
+                {/* ----- */}
                 <span>
                   I accept the <a href="#" className="text-[#3a41bd] font-semibold">Terms of Use</a> &  <a href="#" className="text-[#3a41bd] font-semibold">Privacy Policy</a>
                 </span>
