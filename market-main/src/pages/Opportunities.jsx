@@ -140,9 +140,7 @@ function Aif() {
                       insurance, travel insurance, motor insurance etc.
                     </p>
                     <burron
-                      onClick={() =>
-                        navigate("/opportunities/GenralInsurance")
-                      }
+                      onClick={() => navigate("/opportunities/GenralInsurance")}
                       className="
                      inline-block
                      py-2

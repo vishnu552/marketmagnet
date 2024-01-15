@@ -14,7 +14,9 @@ import Discl from "./pages/discl.jsx";
 import Privacy from "./pages/privacy.jsx";
 import Terms from "./pages/terms.jsx";
 import LifeInsurance from "./components/LifeInsurance.jsx";
-import GenralInsurance from "./components/GenralInsurance.jsx";
+import GeneralInsurance from "./components/GeneralInsurance.jsx";
+import HealthInsurance from "./components/HealthInsurance.jsx";
+import ScrollToTop from "./components/ScrolltoTop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,11 +41,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/opportunities/healthinsurance",
-        element: <LifeInsurance />,
+        element: <HealthInsurance />,
       },
       {
         path: "/opportunities/GenralInsurance",
-        element: <GenralInsurance />,
+        element: <GeneralInsurance />,
       },
       {
         path: "/becomepartner",
@@ -74,5 +76,7 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <RouterProvider router={router}>
+    <ScrollToTop />
+  </RouterProvider>
 );

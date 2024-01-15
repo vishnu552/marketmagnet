@@ -5,7 +5,7 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 function Question({ id, title, info, activeId, toggleQuestion }) {
   const isActive = id === activeId;
   return (
-    <article className="py-6 px-8 mb-8 rounded-md shadow border-2 border-gray-100 bg-slate-50">
+    <article className="py-6 px-8 my-8 rounded-md shadow border-2 border-gray-100 bg-slate-50">
       <header className="flex justify-between items-center">
         <h4 className="transform-none  text-3xl tracking-wide">{title}</h4>
         <button

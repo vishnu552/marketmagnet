@@ -33,9 +33,11 @@ function Services() {
     },
   ];
 
-
   return (
-    <div className=" my-80 w-screen grid place-items-center "data-aos="fade-up">
+    <div
+      className=" my-40 w-screen grid place-items-center "
+      data-aos="fade-up"
+    >
       <h1 className="text-6xl text-[#3a41bd] text-bold mb-20">Our Services</h1>
       <div className=" w-3/4 grid grid-cols-3 gap-16 service-grid mb-10">
         {services.map((service) => (
