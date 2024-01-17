@@ -11,6 +11,8 @@ import data from "../components/QuestionData";
 import Slash from "../components/slash";
 import Services from "../components/Services";
 import Form from "../components/form";
+import State from "../components/States";
+// import Testting from "../components/testting";
 function Home() {
   const [questions, setQuestions] = useState(data);
   const [activeId, setActiveId] = useState(null);
@@ -21,11 +23,13 @@ function Home() {
   return (
     <div>
       <ImageSlider />
+      {/* testting */}
+      {/* <Testting/> */}
+      <State/>
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         <About />
       </div>
 
-      {/* slash page come after service page */}
       <Slash />
       <Why />
       <UserReviews />

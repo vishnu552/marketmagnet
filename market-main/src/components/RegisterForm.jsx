@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
 import { SignUp } from "../api/signupLoginApi";
 import { useNavigate } from "react-router-dom";
 import getOtp from "../api/getOtp";
@@ -21,7 +20,7 @@ function RegisterForm() {
     }
   };
   return (
-    <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto mt-40">
+    <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto ">
       <div className=" text-center py-8">
         <h1 className="text-[#3a41bd] text-5xl font-semibold">Register</h1>
         <br />
@@ -191,7 +190,6 @@ function RegisterForm() {
           </button>
         </div>
       </form>
-      <DevTool control={control} />
     </div>
   );
 }

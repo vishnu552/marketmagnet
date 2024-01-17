@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../components/navbar.css";
-import logo from "../assets/assets/logo1.png";
+import logo from "../assets/assets/logonav.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -12,11 +12,11 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed top-0  z-10 min-w-full">
+    <nav className="flex items-center justify-between flex-wrap p-10 navb-bg bg-gray-200 fixed top-0  z-10 min-w-full">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <div className="w-40 pb-10h-20">
           <Link to="/">
-            <img className="w-full my-[-10px]" src={logo} alt="" />
+            <img className="w-full my-[-10px] h-14 mix-blend-multiply" src={logo} alt="" />
           </Link>
         </div>
       </div>
