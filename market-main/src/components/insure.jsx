@@ -130,7 +130,9 @@ function Insure() {
       {/* fifth hero section */}
 
       <section id="home" className="py-5 my-20" data-aos="fade-up">
+        
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
+          
           <div className="lg:w-2/2">
             <img
               src="https://HubAltinsurance.com/assets/img/feature_illustration_4.svg"

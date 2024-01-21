@@ -5,7 +5,7 @@ import logo from "../assets/assets/logonav.png";
 
 function Footer() {
   return (
-    <footer className=" dark:bg-gray-900 my-10  shadow-inner" >
+    <footer className=" my-10  shadow-inner" >
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -22,8 +22,16 @@ function Footer() {
                 Contact Us
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4 text-[18px]">FAQ</li>
-                <li className="mb-4 text-[18px]">Contact Us</li>
+                <li className="mb-4 text-[18px] cursor-pointer">
+                  <a href="#" className="hover:underline text-[18px]">
+                    FAQ
+                  </a>
+                </li>
+                <li className="mb-4 text-[18px] cursor-pointer">
+                <a href="#" className="hover:underline text-[18px]">
+                  Contact Us
+                  </a>
+                  </li>
               </ul>
             </div>
             <div>
@@ -32,27 +40,27 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <Link to="/privacy">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline text-[18px]">
-                    Privacy Policy
-                  </a>
-                </li>
+                  <li className="mb-4">
+                    <a href="#" className="hover:underline text-[18px]">
+                      Privacy Policy
+                    </a>
+                  </li>
                 </Link>
 
                 <Link to="/terms">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline text-[18px]">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
+                  <li className="mb-4">
+                    <a href="#" className="hover:underline text-[18px]">
+                      Terms &amp; Conditions
+                    </a>
+                  </li>
                 </Link>
 
                 <Link to="/discl">
-                <li>
-                  <a href="#" className="hover:underline text-[18px]">
-                    Disclaimer
-                  </a>
-                </li>
+                  <li>
+                    <a href="#" className="hover:underline text-[18px]">
+                      Disclaimer
+                    </a>
+                  </li>
                 </Link>
 
               </ul>
