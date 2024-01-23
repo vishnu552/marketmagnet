@@ -9,14 +9,17 @@ import { useLocation } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  console.log("hello world", location.pathname);
 
   return (
     <nav className="flex items-center justify-between flex-wrap p-10 navb-bg bg-gray-200 fixed top-0  z-10 min-w-full">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <div className="w-40 pb-10h-20">
           <Link to="/">
-            <img className="w-full my-[-10px] h-14 mix-blend-multiply" src={logo} alt="" />
+            <img
+              className="w-full my-[-10px] h-14 mix-blend-multiply"
+              src={logo}
+              alt=""
+            />
           </Link>
         </div>
       </div>
@@ -56,14 +59,14 @@ const Navbar = () => {
             </Link>
             {location.pathname === "/" && (
               <li>
-                <a
-                  href="#aboutus"
+                <Link
+                  to="/about"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
                   ABOUT US
-                </a>
+                </Link>
                 <a
-                  href="#"
+                  href="#faq"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
                   FAQ

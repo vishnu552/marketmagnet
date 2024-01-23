@@ -5,7 +5,7 @@ import UserReviews from "../components/userReviews";
 import CompanyLogo from "../components/companyLogo";
 import ProductLogo from "../components/Services";
 import Insure from "../components/insure";
-import Why from "../components/why";
+import Why from "../components/TeamMember";
 import About from "../components/About";
 import Questions from "../components/Questions";
 import data from "../components/QuestionData";
@@ -27,12 +27,8 @@ function Home() {
       {/* testting */}
       {/* <Testting/> */}
       <State />
-      <div className="landing_page  w-full mt-20 flex justify-center items-center">
-        <About />
-      </div>
       <Insure />
       <Slash />
-      <Why />
       {/* <UserReviews /> */}
       <Services />
       {/* <CompanyLogo /> */}

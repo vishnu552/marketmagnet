@@ -17,6 +17,8 @@ import LifeInsurance from "./components/LifeInsurance.jsx";
 import GeneralInsurance from "./components/GeneralInsurance.jsx";
 import HealthInsurance from "./components/HealthInsurance.jsx";
 import ScrollToTop from "./components/ScrolltoTop.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
       },
       // {
       //   path: "/insurance",
@@ -76,7 +82,5 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router}>
-    
-  </RouterProvider>
+  <RouterProvider router={router}></RouterProvider>
 );

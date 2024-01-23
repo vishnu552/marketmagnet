@@ -23,7 +23,7 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4 text-[18px] cursor-pointer">
-                  <a href="#" className="hover:underline text-[18px]">
+                  <a href="#faq" className="hover:underline text-[18px]">
                     FAQ
                   </a>
                 </li>
