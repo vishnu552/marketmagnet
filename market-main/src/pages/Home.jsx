@@ -4,6 +4,7 @@ import PartnerSlider from "../components/partnerSlider";
 import UserReviews from "../components/userReviews";
 import CompanyLogo from "../components/companyLogo";
 import ProductLogo from "../components/Services";
+import Insure from "../components/insure";
 import Why from "../components/why";
 import About from "../components/About";
 import Questions from "../components/Questions";
@@ -25,16 +26,16 @@ function Home() {
       <ImageSlider />
       {/* testting */}
       {/* <Testting/> */}
-      <State/>
+      <State />
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         <About />
       </div>
-
+      <Insure />
       <Slash />
       <Why />
-      <UserReviews />
+      {/* <UserReviews /> */}
       <Services />
-      <CompanyLogo />
+      {/* <CompanyLogo /> */}
       <Questions
         questions={questions}
         activeId={activeId}

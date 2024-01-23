@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="text-sm  lg:flex-grow">
           <ul className=" md:flex justify-end">
             <Link to="/opportunities">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
                 OPPORTUNITIES
               </li>
             </Link>
@@ -58,36 +58,37 @@ const Navbar = () => {
               <li>
                 <a
                   href="#aboutus"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
                   ABOUT US
                 </a>
                 <a
                   href="#"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
                   FAQ
                 </a>
               </li>
             )}
 
-            <Link to="/becomepartner">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
+            {/* <Link to="/becomepartner">
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl hover:text-[#3a41bd]">
                 BECOME PARTNER
               </li>
-            </Link>
+            </Link> */}
+
             {/* <Link to="/raisefunds">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
                 RAISE FUNDING
               </li>
             </Link> */}
             <Link to="/register">
-              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
+              <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 REGISTER
               </li>
             </Link>
             <Link to="/login">
-              <li className="block mt-4 lg:inline-block lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
+              <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 LOGIN
               </li>
             </Link>

@@ -30,7 +30,7 @@ const ImageSlider = () => {
           >
             Join Us
           </button>
-          
+
           </div>
 
           <div className="mt-12 md:mt-0  -right-10 lg:w-7/12">
@@ -38,6 +38,7 @@ const ImageSlider = () => {
             <div className="relative w-full bottom-[7rem]">
 
               <img src="https://tailus.io/sources/blocks/tech-startup/preview/images/globalization-cuate.svg" className="relative w-full landing-img2" alt="wath illustration" loading="lazy" width="320" height="280" />
+              
             </div>
           </div>
         </div>
