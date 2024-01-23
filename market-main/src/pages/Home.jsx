@@ -4,6 +4,7 @@ import PartnerSlider from "../components/partnerSlider";
 import UserReviews from "../components/userReviews";
 import CompanyLogo from "../components/companyLogo";
 import ProductLogo from "../components/Services";
+import Insure from "../components/insure";
 import Why from "../components/why";
 import About from "../components/About";
 import Questions from "../components/Questions";
@@ -11,6 +12,8 @@ import data from "../components/QuestionData";
 import Slash from "../components/slash";
 import Services from "../components/Services";
 import Form from "../components/form";
+import State from "../components/States";
+// import Testting from "../components/testting";
 function Home() {
   const [questions, setQuestions] = useState(data);
   const [activeId, setActiveId] = useState(null);
@@ -21,16 +24,18 @@ function Home() {
   return (
     <div>
       <ImageSlider />
+      {/* testting */}
+      {/* <Testting/> */}
+      <State />
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         <About />
       </div>
-
-      {/* slash page come after service page */}
+      <Insure />
       <Slash />
       <Why />
-      <UserReviews />
+      {/* <UserReviews /> */}
       <Services />
-      <CompanyLogo />
+      {/* <CompanyLogo /> */}
       <Questions
         questions={questions}
         activeId={activeId}
