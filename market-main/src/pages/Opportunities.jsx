@@ -53,8 +53,10 @@ function Aif() {
         </div>
 
         <section class="pt-20 lg:pt-[30px] pb-10 lg:pb-0 bg-[#F3F4F6] flex justify-center">
+          
           <div class="container w-[80%]">
-            <div class="flex flex-wrap -mx-4">
+            <div class="flex flex-wrap -mx-4 bronze">
+              
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div class="bg-white rounded-lg overflow-hidden mb-10">
                   <img

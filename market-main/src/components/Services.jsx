@@ -26,8 +26,8 @@ function Services() {
 
   return (
     <div
-      className=" my-40 w-screen grid place-items-center "
-      data-aos="fade-up"
+      className=" my-40 w-screen grid place-items-center bg-click "
+      data-aos="fade-up" 
     >
       
       <h1 className="text-6xl text-[#3a41bd] text-bold mb-20">Process of Investment</h1>

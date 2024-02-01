@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import image from "../assets/assets/stock1.png"
 import Button from "./button";
 import banner from "../assets/assets/9176945_6685.jpg";
 
 const ImageSlider = () => {
   return (
 
-    <section className="mt-[70px] bg-[#f9f9f9]">
+    <section className="mt-[70px] hero-background">
 
       <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
 
@@ -33,11 +34,12 @@ const ImageSlider = () => {
 
           </div>
 
+
           <div className="mt-12 md:mt-0  -right-10 lg:w-7/12">
 
             <div className="relative w-full bottom-[7rem]">
 
-              <img src="https://tailus.io/sources/blocks/tech-startup/preview/images/globalization-cuate.svg" className="relative w-full landing-img2" alt="wath illustration" loading="lazy" width="320" height="280" />
+              <img src={image} className="relative w-full landing-img2" alt="wath illustration" loading="lazy" width="320" height="280" />
               
             </div>
           </div>
