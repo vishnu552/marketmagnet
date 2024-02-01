@@ -1,19 +1,22 @@
 import React from "react";
+import baner1 from "../assets/assets/startup.png"
+import baner2 from "../assets/assets/revenue.png"
+import baner3 from "../assets/assets/investment.png"
 
 function Services() {
   const services = [
     {
-      img: "https://www.financialsketchers.com/images/fs/cp.png",
+      img:[baner1],
       name: "Register with us",
       text: "Instant KYC to start your Investment Journey",
     },
     {
-      img: "https://www.financialsketchers.com/images/fs/hni1.png",
+      img: [baner2],
       name: "Explore Available Opportunities",
       text: " Get all relevant details of available opportunities",
     },
     {
-      img: "https://www.financialsketchers.com/images/fs/me.png",
+      img:[baner3],
       name: "Decide Your Investment",
       text: "Decide how much you want to Invest",
     },
