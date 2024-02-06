@@ -13,6 +13,8 @@ import Slash from "../components/slash";
 import Services from "../components/Services";
 import Form from "../components/form";
 import State from "../components/States";
+import Range from "../components/Range";
+//  import LoginSingup from "../components/LoginSingup";
 // import Testting from "../components/testting";
 function Home() {
   const [questions, setQuestions] = useState(data);
@@ -27,11 +29,13 @@ function Home() {
       {/* testting */}
       {/* <Testting/> */}
       <State />
+      <Range/> 
       <Insure />
       <Slash />
       {/* <UserReviews /> */}
       <Services />
       {/* <CompanyLogo /> */}
+      {/* <LoginSingup/>  */}
       <Questions
         questions={questions}
         activeId={activeId}

@@ -156,7 +156,7 @@
 /* login bg */
 
 .log-bg {
-  background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1380&t=st=1705570792~exp=1705571392~hmac=455df1a4ed31798d0b87155c90673fa25c873bf252dc27d5864dc872ae282ac9");
+  background-image: url("./assets//assets/5590897.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -547,4 +547,105 @@ form a{
   background-image: url(./assets/assets/5566879.jpg);
   background-position: center;
   background-size: cover;
+}
+
+
+
+/* testing */
+
+.blog-card {
+  max-width: 80%;
+  box-sizing: border-box;
+  margin: 2rem auto;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: scale(1.03);
+}
+
+.blog-card img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.blog-content {
+  background-color: rgb(245, 250, 250);
+  padding: 0.3rem 2rem 1rem 2rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.author img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+  border: 1px solid rgb(164, 160, 160);
+}
+
+.author p {
+font-style: italic;
+}
+
+.blog-label {
+  display: inline-block;
+  background-color: rgb(194, 131, 16);
+  color: white;
+  border-radius: 15px;
+  padding: 0 1rem;
+}
+
+@media (min-width: 48rem) {
+  .blog-card {
+    max-width: 30%;
+  }
+}
+
+/* login sigup */
+
+.switchinsert img{
+  margin:0px 30px;
+}
+
+.switchinsert input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+
+}
+
+.SubmitOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: white;
+  background-color: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gray{
+  background: #eaeaea;
+  color: #676767;
 }

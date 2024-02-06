@@ -14,7 +14,7 @@ function Insure() {
     <section>
       <h1 className="text-[#3a41bd] text-5xl text-bold text-center relative top-10">Why you should invest in Startups</h1>
 
-      <div className="flex flex-col md:flex-row items-center p-20">
+      <div className="flex flex-col md:flex-row items-center p-20 ">
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
           <h1 className="text-5xl font-bold text-[#3a41bd] ">Benefit of being Angel Investor</h1>
@@ -37,7 +37,7 @@ function Insure() {
 
       {/* second  */}
 
-      <div className="flex flex-col md:flex-row items-center p-20">
+      <div className="flex flex-col md:flex-row items-center p-20 border-2">
         {/* Left side with text */}
 
         {/* Right side with image */}
@@ -60,7 +60,7 @@ function Insure() {
 
 
       {/* third */}
-      <div className="flex flex-col md:flex-row items-center p-20">
+      <div className="flex flex-col md:flex-row items-center p-20 border-2">
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
           <h1 className="text-5xl font-bold text-[#3a41bd] ">Get Equity &amp; Name on the Cap-table</h1>
@@ -82,7 +82,7 @@ function Insure() {
       </div>
 
       {/* fourth */}
-      <div className="flex flex-col md:flex-row items-center p-20">
+      <div className="flex flex-col md:flex-row items-center p-20 border-2">
         {/* Left side with text */}
 
         {/* Right side with image */}

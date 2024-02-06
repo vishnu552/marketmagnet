@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Testting from "../components/testting";
 import Slider from "../components/slider";
 import { opportunities } from "../api/opportunities";
 
@@ -215,8 +216,11 @@ function Aif() {
               </div>
             </div>
           </div>
+          
         </section>
       </div>
+
+      {/* <Testting/> */}
 
       {/* cards end for insurence */}
 

@@ -8,7 +8,7 @@ const stats = [
 export default function Example() {
   return (
     <div className="bg-white py-24 sm:py-32 my-5">
-      <h1 className="text-center text-5xl my-10">HubAlt community so far</h1>
+      <h1 className="text-center text-bold text-5xl my-10 text-[#3a41bd]">HubAlt community so far</h1>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
           {stats.map((stat) => (
