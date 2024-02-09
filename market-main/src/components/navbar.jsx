@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-
+import LoginSingup from "./LoginSingup";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -89,16 +89,13 @@ const Navbar = () => {
                 RAISE FUNDING
               </li>
             </Link> */}
-            <Link to="/register">
+            
+            <Link to="/LoginSingup">
               <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
                 REGISTER
               </li>
             </Link>
-            <Link to="/login">
-              <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
-                LOGIN
-              </li>
-            </Link>
+            
           </ul>
         </div>
       </div>

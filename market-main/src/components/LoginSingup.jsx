@@ -1,58 +1,94 @@
-import React, { useState } from 'react'
-import * as Components from './Components';
-
+import React from 'react'
+import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 function LoginSingup() {
-    const [signIn, toggle] = React.useState(true);
-     return(
-         <Components.Container>
-             <Components.SignUpContainer signinIn={signIn}>
-                 <Components.Form>
-                     <Components.Title>Create Account</Components.Title>
-                     <Components.Input type='text' placeholder='Name' />
-                     <Components.Input type='email' placeholder='Email' />
-                     <Components.Input type='password' placeholder='Password' />
-                     <Components.Button>Sign Up</Components.Button>
-                 </Components.Form>
-             </Components.SignUpContainer>
+    return (
+        <section className='w-full border-2 flex justify-center'>
+            {/* <div className='LoginContainer' id='LoginContainer'>
+                <div className='FormContainer SingUp'>
+                    <form>
+                        <h1>Create Account</h1>
+                        <div className="LoginSocialIcons">
+                            <a href="#" className="LoginIcon"><FaLinkedin /></a>
+                            <a href="#" className="LoginIcon"><FaFacebook /></a>
+                            <a href="#" className="LoginIcon"><FaGithub /></a>
+                            <a href="#" className="LoginIcon"><FaLinkedin /></a>
+                        </div>
 
-             <Components.SignInContainer signinIn={signIn}>
-                  <Components.Form>
-                      <Components.Title>Sign in</Components.Title>
-                      <Components.Input type='email' placeholder='Email' />
-                      <Components.Input type='password' placeholder='Password' />
-                      <Components.Anchor href='#'>Forgot your password?</Components.Anchor>
-                      <Components.Button>Sigin In</Components.Button>
-                  </Components.Form>
-             </Components.SignInContainer>
+                        <span>or use your email for registeration</span>
 
-             <Components.OverlayContainer signinIn={signIn}>
-                 <Components.Overlay signinIn={signIn}>
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button>Sign Up</button>
+                    </form>
+                </div>
+                <div className='FormContainer SingIn'>
+                    <form>
+                        <h1 className='text-5xl text-bold'>Sign In</h1>
+                        <div className="LoginSocialIcons">
+                            <a href="#" className="LoginIcon"><FaLinkedin /></a>
+                            <a href="#" className="LoginIcon"><FaFacebook /></a>
+                            <a href="#" className="LoginIcon"><FaGithub /></a>
+                            <a href="#" className="LoginIcon"><FaLinkedin /></a>
+                        </div>
 
-                 <Components.LeftOverlayPanel signinIn={signIn}>
-                     <Components.Title>Welcome Back!</Components.Title>
-                     <Components.Paragraph>
-                         To keep connected with us please login with your personal info
-                     </Components.Paragraph>
-                     <Components.GhostButton onClick={() => toggle(true)}>
-                         Sign In
-                     </Components.GhostButton>
-                     </Components.LeftOverlayPanel>
+                        <span>or use your email password</span>
 
-                     <Components.RightOverlayPanel signinIn={signIn}>
-                       <Components.Title>Hello, Friend!</Components.Title>
-                       <Components.Paragraph>
-                           Enter Your personal details and start journey with us
-                       </Components.Paragraph>
-                           <Components.GhostButton onClick={() => toggle(false)}>
-                               Sigin Up
-                           </Components.GhostButton> 
-                     </Components.RightOverlayPanel>
- 
-                 </Components.Overlay>
-             </Components.OverlayContainer>
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <a href="#">Forget Your Password?</a>
+                        <button>Sign In</button>
+                    </form>
+                </div>
 
-         </Components.Container>
-     )
+                <div className="toggle-container">
+                    <div className="toggle">
+                        <div className="toggle-panel toggle-left">
+                            <h1>Welcome Back!</h1>
+                            <p>Enter your personal details to use all of site features</p>
+                            <button className="" id="login">Sign In</button>
+                        </div>
+                        <div className="toggle-panel toggle-right">
+                            <h1 className='text-6xl'>Hello, Friend!</h1>
+                            <p>Register with your personal details to use all of site features</p>
+                            <button className="" id="register">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+
+
+            <div className="LoginContainer">
+                <div className="main">
+                    <input type="checkbox" id="chk" aria-hidden="true" />
+
+                    <div className="LoginChix">
+                        <form className="formChix ">
+                            <label for="chk" aria-hidden="true">Log in</label>
+                            <input className="inputchix" type="email" name="email" placeholder="Email" required />
+                            <input className="inputchix" type="password" name="pswd" placeholder="Password" {...register("password", {
+                                required: {
+                                    value: true,
+                                    message: "Password is Required Field",
+                                },
+                            })} />
+                            <button>Log in</button>
+                        </form>
+                    </div>
+
+                    <div className="registerChix">
+                        <form className="formChix">
+                            <label for="chk" aria-hidden="true">Register</label>
+                            <input className="inputchix" type="text" name="txt" placeholder="Username" required />
+                            <input className="inputchix" type="email" name="email" placeholder="Email" required />
+                            <input className="inputchix" type="password" name="pswd" placeholder="Password" required />
+                            <button>Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
 
 export default LoginSingup

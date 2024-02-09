@@ -14,7 +14,7 @@ import Services from "../components/Services";
 import Form from "../components/form";
 import State from "../components/States";
 import Range from "../components/Range";
-//  import LoginSingup from "../components/LoginSingup";
+ import LoginSingup from "../components/LoginSingup";
 // import Testting from "../components/testting";
 function Home() {
   const [questions, setQuestions] = useState(data);
@@ -35,7 +35,7 @@ function Home() {
       {/* <UserReviews /> */}
       <Services />
       {/* <CompanyLogo /> */}
-      {/* <LoginSingup/>  */}
+        {/* <LoginSingup/>   */}
       <Questions
         questions={questions}
         activeId={activeId}
