@@ -61,7 +61,7 @@ const Navbar = () => {
                 Opportunities
               </li>
             </Link>
-            {location.pathname === "/" && (
+           
               <li>
                 <Link
                   to="/about"
@@ -69,14 +69,15 @@ const Navbar = () => {
                 >
                   About us
                 </Link>
-                <a
-                  href="#faq"
+
+                <Link
+                  to="/Faq"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
                   Faq
-                </a>
+                </Link>
               </li>
-            )}
+            
 
             {/* <Link to="/becomepartner">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl hover:text-[#3a41bd]">

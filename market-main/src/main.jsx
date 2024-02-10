@@ -18,6 +18,8 @@ import HealthInsurance from "./components/HealthInsurance.jsx";
 import ScrollToTop from "./components/ScrolltoTop.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import LoginSingup from "./components/LoginSingup.jsx";
+import Faqq from "./components/faqq.jsx";
+import Faq from "./pages/Faq.jsx"
 
 const router = createBrowserRouter([
   {
@@ -75,6 +77,10 @@ const router = createBrowserRouter([
       {
         path: "/terms",
         element: <Terms />,
+      },
+      {
+        path: "/Faq",
+        element: <Faq />,
       },
       { path: "/success", element: <Success /> },
       { path: "loginsignup", element: <LoginSingup /> },

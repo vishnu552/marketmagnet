@@ -14,6 +14,7 @@ import Services from "../components/Services";
 import Form from "../components/form";
 import State from "../components/States";
 import Range from "../components/Range";
+import faqq from "../components/faqq";
  import LoginSingup from "../components/LoginSingup";
 // import Testting from "../components/testting";
 function Home() {

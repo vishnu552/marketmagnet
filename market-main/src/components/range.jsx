@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import page from '../assets/assets/range.png'
 function range() {
   return (
@@ -14,13 +16,17 @@ function range() {
       <div className="lg:flex">
             
         <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12 ">
-            
-          <button
-          className="btn-primary relative top-[10rem] w-[160px] hover:bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300"
-          onClick={() => navigate("/login")}
-        >
-          Join Now
-        </button>
+            <br />
+            <br />
+            <br />
+        <Link to="/loginsignup">
+              <button
+                className="btn-primary relative top-[4rem] w-[160px] hover:bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300"
+                onClick={() => navigate("/login")}
+              >
+                Join Us
+              </button>
+            </Link>
 
         </div>
 

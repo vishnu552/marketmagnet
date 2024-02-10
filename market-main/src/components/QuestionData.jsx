@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     title: "What is HubAlt ?",
-    info: "HubAlt is online platform brought to you by Market Magnet Private Limited  referred as Company which connects promising startups with Angel investors, HNIs and VCs among others. All startups are vetted by our in-house market research specialists before presenting to our signed up investors. After the clearance from the market research specialists, the startups are given the chance to make their business pitch to potential investors. And if the investors find potential in the startup, they can choose to invest in them in return for equity on the platform itself.",
+    info: "HubAlt is online platform brought to you by Hubalt Venture Private Limited  referred as Company which connects promising startups with Angel investors, HNIs and VCs among others. All startups are vetted by our in-house market research specialists before presenting to our signed up investors. After the clearance from the market research specialists, the startups are given the chance to make their business pitch to potential investors. And if the investors find potential in the startup, they can choose to invest in them in return for equity on the platform itself.",
   },
   {
     id: 2,

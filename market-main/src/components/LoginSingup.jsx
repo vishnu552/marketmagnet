@@ -2,7 +2,7 @@ import React from 'react'
 import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 function LoginSingup() {
     return (
-        <section className='w-full border-2 flex justify-center'>
+        <section className='w-full  flex justify-center bg-chick'>
             {/* <div className='LoginContainer' id='LoginContainer'>
                 <div className='FormContainer SingUp'>
                     <form>
@@ -76,6 +76,7 @@ function LoginSingup() {
                             <label for="chk" aria-hidden="true">Register</label>
                             <input className="inputchix" type="text" name="txt" placeholder="Username" required />
                             <input className="inputchix" type="email" name="email" placeholder="Email" required />
+                            <input className="inputchix" type="number" name="Phone" placeholder="Enter your number" required />
                             <input className="inputchix" type="password" name="pswd" placeholder="Password" required />
                             <button>Register</button>
                         </form>

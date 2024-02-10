@@ -919,6 +919,7 @@ label {
 .inputchix::placeholder {
   color: black;
   font-weight: 700;
+  font-size: 12px;
 }
 
 /*Register*/
@@ -935,7 +936,7 @@ label {
 }
 
 #chk:checked ~ .registerChix {
-  transform: translateY(-68%);
+  transform: translateY(-75%);
 }
 
 #chk:checked ~ .registerChix label {
@@ -965,4 +966,10 @@ label {
 
 .formChix button:hover {
   background-color: #6d44b8;
+}
+
+.bg-chick{
+  background-image: url("./assets//assets/5590897.jpg");
+  background-size: cover;
+  background-position: center;
 }

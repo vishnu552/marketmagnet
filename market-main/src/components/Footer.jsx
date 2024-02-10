@@ -22,18 +22,24 @@ function Footer() {
                 Contact Us
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4 text-[18px] cursor-pointer">
-                  <a href="#faq" className="hover:underline text-[18px]">
-                    FAQ
-                  </a>
-                </li>
-                <li className="mb-4 text-[18px] cursor-pointer">
-                <a href="#" className="hover:underline text-[18px]">
-                  Contact Us
-                  </a>
+                
+                <Link to="/Faq">
+                  <li className="mb-4 text-[18px] cursor-pointer">
+                    <a href="#faq" className="hover:underline text-[18px]">
+                      FAQ
+                    </a>
                   </li>
+                </Link>
+                <Link to="/loginsignup">
+                  <li className="mb-4 text-[18px] cursor-pointer">
+                    <a href="#" className="hover:underline text-[18px]">
+                      Contact Us
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </div>
+
             <div>
               <h2 className="mb-6 text-[20px] font-semibold text-gray-900 uppercase dark:text-white">
                 Legal
@@ -74,7 +80,7 @@ function Footer() {
               HubAlt- All Rights Reserved.
             </span>
             <p className="text-[14px] text-gray-500 sm:text-center dark:text-gray-400">
-              Market Magnet Private Limited
+              Hubalt Venture Private Limited
             </p>
           </div>
 
