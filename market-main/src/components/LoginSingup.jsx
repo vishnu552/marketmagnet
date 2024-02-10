@@ -66,12 +66,7 @@ function LoginSingup() {
                         <form className="formChix ">
                             <label for="chk" aria-hidden="true">Log in</label>
                             <input className="inputchix" type="email" name="email" placeholder="Email" required />
-                            <input className="inputchix" type="password" name="pswd" placeholder="Password" {...register("password", {
-                                required: {
-                                    value: true,
-                                    message: "Password is Required Field",
-                                },
-                            })} />
+                            <input className="inputchix" type="password" name="pswd" placeholder="Password"  />
                             <button>Log in</button>
                         </form>
                     </div>

@@ -2,10 +2,9 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Insure from "./components/insure.jsx";
+
 import Opportunities from "./pages/Opportunities.jsx";
 import Home from "./pages/Home.jsx";
-import Insider from "./components/LifeInsurance.jsx";
 import Partner from "./pages/Partner.jsx";
 import Success from "./pages/success.jsx";
 import Register from "./pages/Register.jsx";
@@ -18,7 +17,7 @@ import GeneralInsurance from "./components/GeneralInsurance.jsx";
 import HealthInsurance from "./components/HealthInsurance.jsx";
 import ScrollToTop from "./components/ScrolltoTop.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
-
+import LoginSingup from "./components/LoginSingup.jsx";
 
 const router = createBrowserRouter([
   {
@@ -78,6 +77,7 @@ const router = createBrowserRouter([
         element: <Terms />,
       },
       { path: "/success", element: <Success /> },
+      { path: "loginsignup", element: <LoginSingup /> },
     ],
   },
 ]);

@@ -90,9 +90,9 @@ const Navbar = () => {
               </li>
             </Link> */}
             
-            <Link to="/LoginSingup">
+            <Link to="/loginsignup">
               <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
-                REGISTER
+                JOIN US
               </li>
             </Link>
             
