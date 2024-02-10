@@ -896,7 +896,7 @@ font-style: italic;
 
 label {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   justify-content: center;
   display: flex;
   font-weight: bold;
@@ -914,6 +914,11 @@ label {
   border: none;
   outline: none;
   border-radius: 4px;
+}
+
+.inputchix::placeholder {
+  color: black;
+  font-weight: 700;
 }
 
 /*Register*/

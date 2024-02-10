@@ -6,7 +6,7 @@ function LifeInsurance() {
         <h1 className="text-white text-6xl mt-20 ml-20">Life Insurance</h1>
       </div>
       <div className=" mt-16 mx-20">
-        <h1 className="text-4xl">Overview of Life Insurance</h1>
+        <h1 className="text-6xl">Overview of Life Insurance</h1>
         <p className="text-2xl my-4">
           Life insurance is a contract between an insurance company and an
           individual or group, in which the insurance company agrees to pay a

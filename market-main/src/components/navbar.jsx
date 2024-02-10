@@ -52,13 +52,13 @@ const Navbar = () => {
          
             <Link to="/">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
-               HOME
+               Home
               </li>
             </Link>
 
             <Link to="/opportunities">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
-                OPPORTUNITIES
+                Opportunities
               </li>
             </Link>
             {location.pathname === "/" && (
@@ -67,13 +67,13 @@ const Navbar = () => {
                   to="/about"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
-                  ABOUT US
+                  About us
                 </Link>
                 <a
                   href="#faq"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
-                  FAQ
+                  Faq
                 </a>
               </li>
             )}
@@ -89,10 +89,10 @@ const Navbar = () => {
                 RAISE FUNDING
               </li>
             </Link> */}
-            
+
             <Link to="/loginsignup">
-              <li className="block mt-4 lg:inline-block text-bold lg:-mt-3 text-white mr-4 text-xl bg-[#3a41bd] p-2 rounded-md hover:shadow-lg  ">
-                JOIN US
+              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+                Join us
               </li>
             </Link>
             
