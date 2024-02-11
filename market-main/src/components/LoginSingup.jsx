@@ -74,8 +74,8 @@ function LoginSingup() {
                     <div className="registerChix">
                         <form className="formChix">
                             <label for="chk" aria-hidden="true">Register</label>
-                            <input className="inputchix" type="text" name="txt" placeholder="Username" required />
-                            <input className="inputchix" type="email" name="email" placeholder="Email" required />
+                            {/* <input className="inputchix" type="text" name="txt" placeholder="Username" required /> */}
+                            <input className="inputchix" type="email" name="email" placeholder="Email/Username" required />
                             <input className="inputchix" type="number" name="Phone" placeholder="Enter your number" required />
                             <input className="inputchix" type="password" name="pswd" placeholder="Password" required />
                             <button>Register</button>

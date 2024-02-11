@@ -246,7 +246,7 @@ function Aif() {
         </div>
       ) : (
         <div className="grid justify-center gap-12 mt-20 mb-20 ">
-          <h1 className="text-3xl">LOGIN TO SEE OPPORTUNITIES</h1>
+          <h1 className="text-5xl text-[#3a41bd] text-bold">LOGIN TO SEE OPPORTUNITIES</h1>
           <button
             className="btn-primary"
             onClick={() => navigate("/login")}

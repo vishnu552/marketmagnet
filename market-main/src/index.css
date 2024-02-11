@@ -936,7 +936,7 @@ label {
 }
 
 #chk:checked ~ .registerChix {
-  transform: translateY(-75%);
+  transform: translateY(-70%);
 }
 
 #chk:checked ~ .registerChix label {

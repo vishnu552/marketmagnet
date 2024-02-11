@@ -20,6 +20,10 @@ import AboutPage from "./pages/AboutPage.jsx";
 import LoginSingup from "./components/LoginSingup.jsx";
 import Faqq from "./components/faqq.jsx";
 import Faq from "./pages/Faq.jsx"
+import Raisefundd from "./components/raisefundd.jsx";
+import Raisefunds from "./pages/raisefunds.jsx";
+import Contectt from "./components/contectt.jsx";
+import Contact from "./pages/contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -78,10 +82,22 @@ const router = createBrowserRouter([
         path: "/terms",
         element: <Terms />,
       },
+
       {
         path: "/Faq",
         element: <Faq />,
       },
+
+      {
+        path: "/Raisefunds",
+        element: <Raisefunds />,
+      },
+      {
+        path: "/Contacts",
+        element: <Contact />,
+      },
+
+
       { path: "/success", element: <Success /> },
       { path: "loginsignup", element: <LoginSingup /> },
     ],

@@ -8,7 +8,7 @@ function Services() {
     {
       img:[baner1],
       name: "Register with us",
-      text: "Instant KYC to start your Investment Journey",
+      text: "Instant KYC to join startup investment community",
     },
     {
       img: [baner2],
@@ -18,12 +18,12 @@ function Services() {
     {
       img:[baner3],
       name: "Decide Your Investment",
-      text: "Decide how much you want to Invest",
+      text: "Decide how much you want to Invest and decide your preferred opportunity ",
     },
     {
       img: "https://cdn-icons-png.flaticon.com/512/8701/8701000.png",
-      name: "You are Angel",
-      text: "Congratulations ,you are Angel Investor now",
+      name: "You are an Angel",
+      text: "Congratulations ,you are an Angel Investor now",
     }
   ];
 
@@ -45,8 +45,8 @@ function Services() {
               alt={service.name}
               className="w-[100px] mb-4 "
             />
-            <h3 className="text-2xl text-gray-600">{service.name}</h3>
-            <p className="text-xl">{service.text}</p>
+            <h3 className="text-3xl text-black text-bold">{service.name}</h3>
+            <p className="text-2xl">{service.text}</p>
           </div>
         ))}
       </div>

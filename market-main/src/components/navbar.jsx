@@ -62,6 +62,14 @@ const Navbar = () => {
               </li>
             </Link>
            
+
+            <Link to="/Raisefunds">
+              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+                Raise Funds
+              </li>
+            </Link> 
+
+
               <li>
                 <Link
                   to="/about"
@@ -74,7 +82,7 @@ const Navbar = () => {
                   to="/Faq"
                   className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
                 >
-                  Faq
+                  FAQ
                 </Link>
               </li>
             
@@ -85,11 +93,7 @@ const Navbar = () => {
               </li>
             </Link> */}
 
-            {/* <Link to="/raisefunds">
-              <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-[#3a41bd]">
-                RAISE FUNDING
-              </li>
-            </Link> */}
+             
 
             <Link to="/loginsignup">
               <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">

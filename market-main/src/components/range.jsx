@@ -35,7 +35,7 @@ function range() {
 
           <div className="relative w-full bottom-[7rem]">
 
-            <img src={page} className="relative w-full landing-img2" alt="wath illustration" loading="lazy" width="320" height="280" />
+            <img src={page} className="border-2 border-blue-400 relative w-full landing-img2" alt="wath illustration" loading="lazy" width="320" height="280" />
             
           </div>
         </div>

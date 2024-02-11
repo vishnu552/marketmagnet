@@ -24,11 +24,12 @@ function Insure() {
       <div className="flex flex-col md:flex-row items-center p-20 " >
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
-          <h1 className="text-6xl font-bold text-[#3a41bd] ">Benefit of being Angel Investor</h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Benefit of being Angel Investor</h1>
           <br />
           <p className="mt-2 text-[20px]">
             Early access to start-ups with lower valuation
-            hence chance to get more than 50% returns annually.
+            hence chance to get multifold returns annually.
+
           </p>
         </div>
 
@@ -56,11 +57,10 @@ function Insure() {
           />
         </div>
         <div className="md:w-1/2 p-4">
-          <h1 className="text-6xl font-bold text-[#3a41bd] ">No Fee</h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">No Fee</h1>
           <br />
           <p className="mt-2 text-[20px]">
-            Zero commission charge levied by HubAlt for direct investment into
-            the start-ups.
+            Zero commission charge levied by HubAlt for joining startup investor community.
           </p>
         </div>
       </div>
@@ -70,10 +70,10 @@ function Insure() {
       <div className="flex flex-col md:flex-row items-center p-20 border-2">
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
-          <h1 className="text-6xl font-bold text-[#3a41bd] ">Get Equity &amp; Name on the Cap-table</h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Get Equity &amp; Name on the Cap-table</h1>
           <br />
           <p className="mt-2 text-[20px]">
-            Angel Investor get their name on the
+            Angel Investors get their startup investor community name on the
             cap-table of startup*
           </p>
         </div>
@@ -101,11 +101,10 @@ function Insure() {
           />
         </div>
         <div className="md:w-1/2 p-4">
-          <h1 className="text-6xl font-bold text-[#3a41bd] ">Shares issued Physically or in Demat Account</h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Shares issued Physically or in Demat Account</h1>
           <br />
           <p className="mt-2 text-[20px]">
-            After deal completion Shares
-            issued to investor within regulated time in Demat or Physical form*
+            After investment round close , get shares issued to startup investment community within regulated time in Demat or Physical form*
           </p>
         </div>
       </div>
@@ -115,10 +114,10 @@ function Insure() {
       <div className="flex flex-col md:flex-row items-center p-20">
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
-          <h1 className="text-6xl font-bold text-[#3a41bd] ">Investment Diversification</h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Investment Diversification</h1>
           <br />
           <p className="mt-2 text-[20px]">
-            Add new edge investment tool in your investment
+            Add new edge investment tool in your 
             portfolio and balance risk-reward ratio of your portfolio.
           </p>
         </div>
