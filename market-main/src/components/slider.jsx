@@ -8,7 +8,7 @@ import banner from "../assets/assets/9176945_6685.jpg";
 const ImageSlider = () => {
   return (
 
-    <section className="mt-[70px] hero-background">
+    <section className="mt-[70px] hero-background " data-aos="fade-up">
 
       <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
 

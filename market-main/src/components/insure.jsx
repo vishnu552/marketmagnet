@@ -12,14 +12,16 @@ function Insure() {
   return (
     // father class wrapper
     <section>
-      <h1 className="text-[#3a41bd] text-6xl text-bold text-center relative top-10">Why you should invest in Startups</h1>
-
-
+      <h1 className="text-[#3a41bd] text-6xl text-bold text-center relative top-10" data-aos="fade-up">Why you should invest in Startups</h1>
       <div className="relative flex justify-center top-20">
         <hr className="w-[100px] border-2 border-solid border-gray-400" />
       </div>
+      <br />
+      <br />
+      <br />
+     
 
-      <div className="flex flex-col md:flex-row items-center p-20 ">
+      <div className="flex flex-col md:flex-row items-center p-20 " >
         {/* Left side with text */}
         <div className="md:w-1/2 p-4">
           <h1 className="text-6xl font-bold text-[#3a41bd] ">Benefit of being Angel Investor</h1>

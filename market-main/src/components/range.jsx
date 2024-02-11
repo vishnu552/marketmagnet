@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import page from '../assets/assets/range.png'
 function range() {
   return (
-    <section className="mt-[70px] hero2-background">
+    <section className="mt-[70px] hero2-background"data-aos="fade-up">
 
     <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
 
