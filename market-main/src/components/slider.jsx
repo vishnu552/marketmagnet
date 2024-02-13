@@ -8,11 +8,11 @@ import banner from "../assets/assets/9176945_6685.jpg";
 const ImageSlider = () => {
   return (
 
-    <section className="mt-[70px] hero-background " data-aos="fade-up">
+    <section className="mt-[70px] hero-background ">
 
       <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
 
-        <h1 className="relative top-[7rem] sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-5xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">"Become an Angel Investor 
+        <h1 className="relative top-[7rem] sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-5xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">"Become an Startup Investor 
           <br className="lg:block hidden" />
 
 
@@ -21,9 +21,18 @@ const ImageSlider = () => {
 
           <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12 ">
 
-            <p className=" relative top-[5rem] sm:text-3xl text-gray-700 dark:text-gray-300 text-3xl lg:w-11/12">
-              Hubalt Venture Private Limited helps angel investors to build startups investor community and support promising enterpreuners.
+            <p className=" relative top-[5rem] sm:text-3xl text-gray-700 pl-12 dark:text-gray-300 text-3xl lg:w-11/12">
+              Hubalt Venture Private Limited helps investors to come toghter and back startups & enterpreuners.
             </p>
+
+            <ul className="relative top-20  pl-10 ">
+              <li className="text-4xl leading-normal text-blue-900 ">Asset Diverfication</li>
+              <li className="text-4xl leading-normal text-blue-900 ">Wealth Multiplication</li>
+              <li className="text-4xl leading-normal text-blue-900">De-risking</li>
+              <li className="text-4xl leading-normal text-blue-900">New-Age Learning</li>
+              <li className="text-4xl leading-normal text-blue-900">Nation Building</li>
+            </ul>
+
             <br />
             <br />
             <br />

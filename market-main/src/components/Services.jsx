@@ -23,14 +23,14 @@ function Services() {
     {
       img: "https://cdn-icons-png.flaticon.com/512/8701/8701000.png",
       name: "You are an Angel",
-      text: "Congratulations ,you are an Angel Investor now",
+      text: "Congratulations , you have taken right step",
     }
   ];
 
   return (
     <div
       className=" my-40 w-screen grid place-items-center bg-click "
-      data-aos="fade-up" 
+      
     >
       
       <h1 className="text-6xl text-[#3a41bd] text-bold mb-20">Process of Investment</h1>
@@ -48,8 +48,18 @@ function Services() {
             <h3 className="text-3xl text-black text-bold">{service.name}</h3>
             <p className="text-2xl">{service.text}</p>
           </div>
+          
         ))}
+       
       </div>
+      <div className="grid justify-center gap-12 mt-20 mb-20 ">
+          <button
+            className="btn-primary text-bold"
+            onClick={() => navigate("/login")}
+          >
+            Join Us
+          </button>
+        </div>
     </div>
   );
 }
