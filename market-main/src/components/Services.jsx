@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import baner1 from "../assets/assets/startup.png"
 import baner2 from "../assets/assets/revenue.png"
 import baner3 from "../assets/assets/investment.png"
