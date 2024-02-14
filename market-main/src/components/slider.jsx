@@ -25,12 +25,12 @@ const ImageSlider = () => {
               Hubalt Venture Private Limited helps investors to come toghter and back startups & enterpreuners.
             </p>
 
-            <ul className="relative top-20  pl-10 ">
-              <li className="text-4xl leading-normal text-blue-900 ">Asset Diverfication</li>
-              <li className="text-4xl leading-normal text-blue-900 ">Wealth Multiplication</li>
-              <li className="text-4xl leading-normal text-blue-900">De-risking</li>
-              <li className="text-4xl leading-normal text-blue-900">New-Age Learning</li>
-              <li className="text-4xl leading-normal text-blue-900">Nation Building</li>
+            <ul className="relative top-20  pl-20 ">
+              <li className="text-4xl leading-normal text-blue-900 list-disc ">Asset Diverfication</li>
+              <li className="text-4xl leading-normal text-blue-900 list-disc ">Wealth Multiplication</li>
+              <li className="text-4xl leading-normal text-blue-900 list-disc">De-risking</li>
+              <li className="text-4xl leading-normal text-blue-900 list-disc">New-Age Learning</li>
+              <li className="text-4xl leading-normal text-blue-900 list-disc">Nation Building</li>
             </ul>
 
             <br />

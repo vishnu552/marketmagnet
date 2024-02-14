@@ -1,6 +1,7 @@
 import Card from "../components/Card";
 import Testting from "../components/testting";
 import Slider from "../components/slider";
+import Opper from "../components/opper"
 import { opportunities } from "../api/opportunities";
 
 import { useEffect, useState } from "react";
@@ -34,23 +35,23 @@ function Aif() {
 
   return (
     <>
-      <Slider />
+      <Opper />
 
       {/* cards start for insurence */}
       <div className="">
         <div className="flex flex-col justify-center py-10 bg-[#F3F4F6]">
           <h1 className=" text-center text-6xl text-bold text-[#3a41bd]">
-            Types Of Insurance
+            Available Startup Opportunities
           </h1>
 
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <p className="text-center w-[80%] py-10 text-2xl">
               There are two main types of insurance in India: Life Insurance and
               General Insurance. Health Insurance, which is a sub-set of General
               Insurance, is also gaining prominence due to the high cost of
               medical care that needs to be covered.
             </p>
-          </div>
+          </div> */}
         </div>
 
         <section class="pt-20 lg:pt-[30px] pb-10 lg:pb-0 bg-[#F3F4F6] flex justify-center">
@@ -80,15 +81,10 @@ function Aif() {
                         hover:text-primary
                         "
                     >
-                      Life Insurance
+                      Fintech
                     </h3>
-                    <p class="text-base text-body-color text-bold leading-relaxed mb-7">
-                      Life Insurance is designed to protect your family
-                      financially, should the worst happen. There are many
-                      different types of life insurance policies available, so
-                      it is important to choose one that is right for your
-                      needs. Term Insurance, Endowment Policies and ULIPs are
-                      some examples.
+                    <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
+                     Revenue in the fintech industry are expected to grow almost 3X faster than those in the traditional sector between 2024 & 2028.
                     </p>
                     <button
                       onClick={() => navigate("/opportunities/lifeinsurance")}
@@ -133,14 +129,10 @@ function Aif() {
                         hover:text-primary
                         "
                     >
-                      General Insurance
+                      Ecommerce
                     </h3>
-                    <p class="text-base text-body-color text-bold leading-relaxed mb-7">
-                      General insurance is designed to protect you against
-                      financial losses caused by events such as accidents,
-                      theft, and damage to property. Some of the most common
-                      types of general insurance in India include health
-                      insurance, travel insurance, motor insurance etc.
+                    <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
+                      Ecommerce in India is expeceted to grow at a CAGR of 50% over the next 5 years.
                     </p>
                     <burron
                       onClick={() => navigate("/opportunities/GenralInsurance")}
@@ -184,15 +176,25 @@ function Aif() {
                         hover:text-primary
                         "
                     >
-                      Health Insurance
+                     Agritech 
+                     <br />
+                     Artificial Intelligence
+                     <br />
+                     B2B
+                     <br />
+                     Logistics
+                     <br />
+                     Leisure & Entertainment
+                     <br />
+                     & many more..
                     </h3>
-                    <p class="text-base text-body-color text-bold leading-relaxed mb-7">
+                    {/* <p class="text-base text-body-color text-bold leading-relaxed mb-7">
                       Health insurance is a type of insurance that covers the
                       cost of medical expenses, such as doctor’s visits,
                       hospital stays etc. in which the insurance company agrees
                       to pay for some or all of the individual’s or group’s
                       medical expenses in exchange for a monthly premium.
-                    </p>
+                    </p> */}
                     <button
                       onClick={() => {
                         navigate("/opportunities/healthinsurance");
@@ -246,7 +248,7 @@ function Aif() {
         </div>
       ) : (
         <div className="grid justify-center gap-12 mt-20 mb-20 ">
-          <h1 className="text-5xl text-[#3a41bd] text-bold">LOGIN TO SEE OPPORTUNITIES</h1>
+          <h1 className="text-3xl text-[#3a41bd]">LOGIN TO SEE OPPORTUNITIES</h1>
           <button
             className="btn-primary"
             onClick={() => navigate("/login")}
