@@ -78,7 +78,7 @@ function Terms() {
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
-                            <span className='text-bold'>6. ASSUMPTION OF RISK</span>
+                            <span className='font-bold'>6. ASSUMPTION OF RISK</span>
                             <br />
                             The Platform and Services provided for information purposes only. You acknowledge and agree that any information
                             posted on Our platform is not intended to be any sort of advice and no fiduciary relationship has been created
@@ -87,14 +87,14 @@ function Terms() {
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
-                            <span className='text-bold'>7. COMMUNICATION</span>
+                            <span className='font-bold'>7. COMMUNICATION</span>
                             <br />
                             You understand that each time You use the Platform in any manner, you agree to these Terms & Conditions. By agreeing to these Terms & Conditions, you acknowledge that you are interested in availing the Services provided by the Platform and that you have selected and consent to receive communications via phone or e-mail from the Platform telling you about the Services offered by the Platform. You agree that the communication sent to you shall not be construed as spam or bulk under any law prevailing in any country where such communication is received.
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
 
-                            <span className='text-bold'>8. DATA LOSS</span>
+                            <span className='font-bold'>8. DATA LOSS</span>
                             <br />
                             We do not accept responsibility for the security of your account or content. You agree that Your use of Platform and services are at Your own risk.
                             <br />
@@ -148,14 +148,11 @@ function Terms() {
                             <br />
                             Should You register for any paid services in the Platform, You agree to pay us such specific monetary amount
                             (“Fees”) for such Services on this Platform. Fees shall be payed through third part payment gateway whereby you&#39;ll
-                            be redirected payment gateway partner&#39;s website. For User registered as Investor, the money paid or invested shall
-                            be kept in a separate bank account, the Startup registered, on reaching the funding goal in the due timeline shall
-                            either issue You the share certificate or refund You your money. In case, the Startup doesn&#39;t reach the funding goal,
-                            the amount or money paid by you and kept in the separate bank account shall be refunded to your bank account.
+                            be redirected payment gateway partner&#39;s website. 
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
-                            <span className='text-bold'> 14. PRIVACY</span>
+                            <span className='font-bold'> 14. PRIVACY</span>
                             <br />
                             We view protection of Your privacy as a very important principle. We understand clearly that You and Your Personal
                             Information is one of Our most important assets. We store and process Your Information including any sensitive
@@ -237,7 +234,7 @@ function Terms() {
                             <br />
                             e. Electronic Communication (Contact Information)
                             Electronic communication via email is permitted to both the Parties under this Terms &amp; Conditions. For any query
-                            and concerns, we request you to kindly email us at support@HubAlt.com
+                            and concerns, we request you to kindly email us at  info@hubalt.in
                         </p>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ function Privacy() {
     return (
         <div className='flex justify-center bg-dic'>
             <div className='w-[80%] flex flex-col sm:h-[full] mt-60'>
-                <h1 className='sm:text-[48px] text-[38px] text-center text-[#3a41bd] text-bold'>Privacy Policy</h1>
+                <h1 className='sm:text-[48px] text-[38px] text-center text-[#3a41bd] font-bold'>Privacy Policy</h1>
                 <div className='text-black text-[1.8rem] sm:text-[1.5rem] m-10 font-sans leading-[40px]'>
                     <p>This privacy policy (&quot;Policy&quot;) will help you understand how Hubalt Vanture Private Limited (&quot;Owner&quot; &quot;us&quot;, &quot;we&quot;, &quot;our&quot;)
                         uses and protects the data you provide to us when you visit and use Hubalt (&quot;Platform&quot;, &quot;service&quot;).
@@ -23,7 +23,7 @@ function Privacy() {
                         <br />
                          Data profile regarding your online behaviour on our Platform
                         <br />
-                       <span className='text-bold'> Why We Collect Your Data</span>
+                       <span className='text-[#3a41bd]'> Why We Collect Your Data</span>
                        <br />
                         We are collecting your data for several reasons:
                         <br />
@@ -38,13 +38,13 @@ function Privacy() {
                          To customize our Platform according to your online behaviour and personal preferences
                         <br />
                         <br />
-                        <span className='text-bold'>Safeguarding and Securing the Data</span>
+                        <span className='font-bold'>Safeguarding and Securing the Data</span>
                         <br />
                         We are committed to securing your data and keeping it confidential. The Owner has done all in its power to prevent
                         data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us
                         safeguard all the information we collect online.
                         <br />
-                        <span className='text-bold'>Our Cookie Policy</span>
+                        <span className='font-bold'>Our Cookie Policy</span>
                         <br />
                         Once you agree to allow our Platform to use cookies, you also agree to use the data it collects regarding your online
                         behaviour (analyze web traffic, web pages you spend the most time on, and Platforms you visit).
@@ -60,19 +60,19 @@ function Privacy() {
                         modify and amend the Privacy Policy and it shall be in full force and effective immediately from the day it is posted
                         on the Platform and the amendments shall replace any previous version of the Privacy Policy on the Platform.
                         <br />
-                        <span className='text-bold'>Third party&#39;s Link</span>
+                        <span className='font-bold'>Third party&#39;s Link</span>
                         <br />
                         Our Platform contains links that lead to other websites. If you click on these links, the Owner is not held responsible
                         for your data and privacy protection. Visiting those platforms or websites is not governed by this Privacy Policy
                         agreement. Make sure to read the privacy policy documentation of the platform or website you go to or redirected to
                         from our Platform.
                         <br />
-                        <span className='text-bold'>Payment Details</span>
+                        <span className='font-bold'>Payment Details</span>
                         <br />
                         All payment shall be made through mentioned mode on our platform. We shall not be held liable for any loss nor do
                         we collect or store any of the confidential information with respect to your payment details.
                         <br />
-                        <span className='text-bold'> Restricting the Collection of your Personal Data</span>
+                        <span className='font-bold'> Restricting the Collection of your Personal Data</span>
                         <br />
                         The Owner will not lease, sell or distribute your personal information to any third parties, might do so to the extent
                         necessary to comply with any requirement of any regulatory body, applicable law or regulation binding on it. Your

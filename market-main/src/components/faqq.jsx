@@ -7,9 +7,9 @@ function faqq() {
                 <h1 className="text-white text-6xl mt-20 ml-20">FAQ</h1>
             </div>
             <div className=" mt-16 mx-20">
-                <h1 className="text-6xl">What is Hubalt</h1>
-                <p className="text-2xl my-4">
-                    Hubalt is online platform brought to you by HubAlt Venture And Private limited ( referred as Company) which connects promising startups with Angel investors, HNIs and VCs among others. All startups are vetted by our in-house market research specialists before presenting to our signed up investors. After the clearance from the market research specialists, the startups are given the chance to make their business pitch to potential investors. And if the investors find potential in the startup, they can choose to invest in them in return for equity on the platform itself.
+                {/* <h1 className="text-6xl">What is Hubalt</h1> */}
+                <p className="text-3xl my-4">
+                    Hubalt is online platform brought to you by HubAlt Venture Private limited ( referred as Company) which connects promising startups with Startup investors, HNIs and VCs among others. All startups are vetted by our in-house market research specialists before presenting to our signed up investors. After the clearance from the market research specialists, the startups are given the chance to make their business pitch to potential investors. And if the investors find potential in the startup, they can choose to invest in them in return for equity on the platform itself.
                 </p>
 
                 <div>
@@ -51,20 +51,8 @@ function faqq() {
                             HUBALT lists only promising and fully vetted startups from verticals ranging across Tech, Fintech, Social Entrepreneurship, Lifestyle etc. We prefer to bring Startups who can generate revenue in short period of time.
                         </li>
 
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">What if the startup doesn't reach the funding goal? What will happen to my money?</span>
-                            <br />
-                            When a startup reaches its funding goal, we transfer the amount received from the investor to the startup's account, and issue the Share Certificate in the name of the investor.
-                            However, on the downside, if a startup fails to reach the set funding target of its goal, it is unlikely that they can act on their proposed business plan. Hence, to protect the investor's funds, the raised funds are refunded.
-                            Therefore, a startup either receives 100% of the funds when it reaches its funding goal, or nothing at all when it fails to.Your Money will be there in SEBI approved Escrow account until Startup reaches the funding Goal.
-
-                        </li>
-
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">What is process after Investment?</span>
-                            <br />
-                            You have access to Dashboard and nnce Funding Goal of Startup is complete ,We ensure the CCD/Shares certificate issued to you in next 30 days.
-                        </li>
+                        
+                        
 
                         <li className="text-2xl my-4">
                             <span className="font-semibold">What about Exit from Investment?</span>
@@ -88,7 +76,7 @@ function faqq() {
 
                     <ul className="ml-8 list-disc">
                         <li className="text-2xl my-4">
-                            <span className="font-semibold">1 What is the minimum and maximum funds a startup can raise on HUBALT?</span>
+                            <span className="font-semibold"> What is the minimum and maximum funds a startup can raise on HUBALT?</span>
                             <br />
                             As of now, a startup can raise funds ranging from INR 20 Lakhs to INR 5 Cr. on HUBALT.
                         </li>
@@ -100,7 +88,7 @@ function faqq() {
                         </li>
 
                         <li className="text-2xl my-4">
-                            <span className="font-semibold">. How does the entire process of fundraising work on HUBALT?</span>
+                            <span className="font-semibold">How does the entire process of fundraising work on HUBALT?</span>
                             <br />
                             Startup Onboarding
                             <br />
@@ -113,11 +101,7 @@ function faqq() {
                             •	Fundraising Campaign: Once the startup clears the vetting process, a fundraising campaign with a specific goal amount is launched on HUBALT.
                             Investment and Fund/share transfer
                             <br />
-                            •	Direct Investment: Once the investor finds a startup on HUBALT that's aligned with their vision and interest, they can go right ahead and invest with a single click. Different modes of payment are available for investors to choose from - Net banking, Debit Card, etc.
-                            <br />
-                            •	Campaign Status: When an investor invests in a startup, the funds remain in HUBALT's Escrow account. Each startup campaign will be given 15-21 days to raise funds from HUBALT platform.
-
-
+                            
                         </li>
 
                         <li className="text-2xl my-4">
@@ -125,7 +109,7 @@ function faqq() {
                             <br />
                             A startup should be:
                             <br />
-                            a.	Registered in India and incorporated as Private Limited or Public Limited company not more than 2 years ago.
+                            a.	Registered in India and incorporated as Private Limited or Public Limited company not more than 3 years ago.
                             <br />
                             b.	Execute a unique business idea with a reasonable size target market
                             <br />
@@ -134,7 +118,7 @@ function faqq() {
                         </li>
 
                         <li className="text-2xl my-4">
-                            <span className="font-semibold">. On what basis HUBALT vets the startups?</span>
+                            <span className="font-semibold">On what basis HUBALT vets the startups?</span>
                             <br />
                             The team at HUBALT performs complete due diligence to ensure that the details submitted by the startup are legal and valid. The critical areas against which HUBALT vet the startups are -
                             <br />
@@ -154,27 +138,6 @@ function faqq() {
 
                         </li>
 
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">. Can a startup re-register after getting rejected on HUBALT?</span>
-                            <br />
-                            Yes. The startup can rectify the required details from the first submission and re-register on the platform.
-
-                        </li>
-
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">How HUBALT facilitates startup fundraising?</span>
-                            <br />
-                            HUBALT allows startups to pitch their business ideas to potential investors. If investors are interested, they can invest in the startup directly through the platform in exchange for equity/convertibles.
-                        </li>
-
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">What is the implication of a 'Funding Goal' on HUBALT?</span>
-                            <br />
-                            Every startup funding campaign begins with a specific amount that a startup wants to raise on HUBALT, it is called 'Funding Goal'.
-                            When the startup able to raise the 'Funding Goal' amount, we consider it as Funding Goal Reached. As a result, the amount will be transferred to startup account.
-                            If the startup not able to achieve the 'Funding Goal', whatever amount that is raised so far, will be refunded to the investor.
-
-                        </li>
 
                         <li className="text-2xl my-4">
                             <span className="font-semibold">When does a funding campaign ends on HUBALT?</span>
@@ -189,11 +152,7 @@ function faqq() {
 
                         </li>
 
-                        <li className="text-2xl my-4">
-                            <span className="font-semibold">How can a startup track the fundraising progress of their campaign on HUBALT?</span>
-                            <br />
-                            A startup and view all the information about the fundraising, real-time, on Startup's Dashboard. In addition, each time when an investor invests funds, the startup will receive an email update on the registered email address.
-                        </li>
+                    
 
                         <li className="text-2xl my-4">
                             <span className="font-semibold">What are the documents that a startup needs to submit to HUBALT to complete the due diligence and vetting process?</span>

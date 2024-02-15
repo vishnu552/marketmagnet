@@ -12,7 +12,7 @@ function Insure() {
   return (
     // father class wrapper
     <section>
-      <h1 className="text-[#3a41bd] text-6xl text-bold text-center relative top-10" data-aos="fade-up">Benefits of Investing in Startups in India</h1>
+      <h1 className="text-[#3a41bd] text-6xl font-bold text-center relative top-10" data-aos="fade-up">Benefits of Investing in Startups in India</h1>
       <div className="relative flex justify-center top-20">
         <hr className="w-[100px] border-2 border-solid border-gray-400" />
       </div>
