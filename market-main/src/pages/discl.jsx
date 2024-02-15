@@ -4,10 +4,10 @@ function Discl() {
     return (
         <div className='flex justify-center bg-dic'>
             <div className='w-[80%] flex flex-col sm:h-[full] mt-60'>
-                <h1 className='sm:text-[48px] text-[38px] text-center text-bold'>DISCRIPTION</h1>
-                <div className='text-black text-[1.8rem] sm:text-[1.5rem] text-center m-10 font-sans leading-[40px]'>
-                <p>HubAlt is owned by Market Magnet Private Limited and reserves all rights to the assets, content,
-                    services, information, and products and graphics in the website but third party content. Company
+                <h1 className='sm:text-[48px] text-[38px] text-center text-[#3a41bd] text-bold'>DISCRIPTION</h1>
+                <div className=' text-[1.8rem] sm:text-[1.5rem] text-center m-10 mb-20 font-sans leading-[34px]'>
+                <p>HubAlt is owned by Hubalt Venture Private Limited and reserves all rights to the assets, content,
+                    services, information, and products and graphics in the website. Company
                     does not solicit, advertise, market any of the users registered with HubAlt, neither does it solicit
                     investors by offering leagues/schemes/competitions etc. related to securities markets. HubAlt
                     hereby clarifies that it does not carry any resemblance to the stock exchange nor does it facilitate

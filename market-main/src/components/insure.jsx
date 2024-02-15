@@ -64,9 +64,9 @@ function Insure() {
           />
         </div>
         <div className="md:w-1/2 p-4">
-          <h1 className="text-5xl font-bold text-[#3a41bd] ">Benefits of Startup Investors </h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Benefits of Startup Investing </h1>
           <br />
-          <p className="mt-2 text-[20px] p-10">
+          <p className="mt-2 text-[20px] p-10 ">
            Long term wealth creation.
            <br />
            Early access to start-ups with lower valuation.
@@ -86,11 +86,11 @@ function Insure() {
           <h1 className="text-5xl font-bold text-[#3a41bd] ">HubAlt Solutions</h1>
           <br />
           <p className="mt-2 text-[20px] p-10">
-            Acess to promising Startups of various sectors.
+            Access to promising Startups of various sectors.
             <br />
             End-to-end documentation support.
             <br />
-            Zero commission charge levied by HubAlt for joining startup investor community.
+            Zero commission levied by HubAlt for joining startup investor community.
             <br />
             Update on activities of invested Startups.
           </p>
@@ -119,7 +119,7 @@ function Insure() {
           />
         </div>
         <div className="md:w-1/2 p-4">
-          <h1 className="text-5xl font-bold text-[#3a41bd] ">Enhanced investor protection </h1>
+          <h1 className="text-5xl font-bold text-[#3a41bd] ">Enhanced Investor Protection </h1>
           <br />
           <p className="mt-2 text-[20px] p-10">
             After investment round close , get shares issued to startup investment community within regulated time in Demat or Physical form*

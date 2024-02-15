@@ -24,6 +24,7 @@ import Raisefundd from "./components/raisefundd.jsx";
 import Raisefunds from "./pages/raisefunds.jsx";
 import Contectt from "./components/contectt.jsx";
 import Contact from "./pages/contact.jsx";
+import AboutSlider from "./components/aboutpage.jsx"
 
 const router = createBrowserRouter([
   {
@@ -95,6 +96,11 @@ const router = createBrowserRouter([
       {
         path: "/Contacts",
         element: <Contact />,
+      },
+
+      {
+        path: "/aboutpage",
+        element: <AboutSlider />,
       },
 
 

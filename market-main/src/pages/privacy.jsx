@@ -4,14 +4,14 @@ function Privacy() {
     return (
         <div className='flex justify-center bg-dic'>
             <div className='w-[80%] flex flex-col sm:h-[full] mt-60'>
-                <h1 className='sm:text-[48px] text-[38px] text-center text-bold'>Privacy Policy</h1>
+                <h1 className='sm:text-[48px] text-[38px] text-center text-[#3a41bd] text-bold'>Privacy Policy</h1>
                 <div className='text-black text-[1.8rem] sm:text-[1.5rem] m-10 font-sans leading-[40px]'>
-                    <p>This privacy policy (&quot;Policy&quot;) will help you understand how Market Magnet Private Limited (&quot;Owner&quot; &quot;us&quot;, &quot;we&quot;, &quot;our&quot;)
-                        uses and protects the data you provide to us when you visit and use POD (&quot;Platform&quot;, &quot;service&quot;).
+                    <p>This privacy policy (&quot;Policy&quot;) will help you understand how Hubalt Vanture Private Limited (&quot;Owner&quot; &quot;us&quot;, &quot;we&quot;, &quot;our&quot;)
+                        uses and protects the data you provide to us when you visit and use Hubalt (&quot;Platform&quot;, &quot;service&quot;).
                         We reserve the right to change this Policy at any given time, of which you will be promptly updated. If you want to
                         make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
                         <br />
-                        <span className='text-bold'>What User Data We Collect</span>
+                        <span className='font-bold'>What User Data We Collect</span>
                         <br />
                         When you visit the Platform, we may collect the following data:
                         <br />

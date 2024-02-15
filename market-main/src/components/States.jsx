@@ -1,6 +1,6 @@
 const stats = [
   { id: 1, name: 'Startups Investors', value: '100+' },
-  { id: 2, name: 'Startup', value: '10+' },
+  { id: 2, name: 'Startups', value: '10+' },
   { id: 3, name: 'Commitment', value: '5 Cr+' },
   { id: 4, name: 'Live Campaign', value: '2' },
 ]

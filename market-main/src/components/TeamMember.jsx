@@ -3,14 +3,11 @@ import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
 
 function TeamMember() {
   return (
-    <div className="mt-20" data-aos="fade-up">
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+    <div className="">
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4">
         <div class="text-center pb-12">
-          <h2 class="text-3xl text-bold text-black">
-            We have the best equipment
-          </h2>
           <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl font-heading text-[#3a41bd]">
-            Check our awesome team members
+           A Team You Can Invest With!
           </h1>
         </div>
 
@@ -23,6 +20,8 @@ function TeamMember() {
                 alt="photo"
               />
             </div>
+
+            
             <div class="text-center">
               <p class="text-2xl text-gray-900 font-bold mb-2">
                 Prakash Sharma

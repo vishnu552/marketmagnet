@@ -5,12 +5,12 @@ function Terms() {
         <div>
             <div className='flex justify-center bg-dic'>
                 <div className='w-[80%] flex flex-col sm:h-full mt-60'>
-                    <h1 className='sm:text-[48px] text-[38px] text-center text-bold'>Terms & Condition</h1>
+                    <h1 className='sm:text-[48px] text-[38px] text-center font-bold text-[#3a41bd]'>Terms & Condition</h1>
                     <div className='text-black text-[1.8rem] sm:text-[1.5rem]  m-10 font-sans leading-[40px]'>
-                        <p>The Agreement: The use of this platform and services on this platform HubAlt provided by Market Magnet
+                        <p>The Agreement: The use of this platform and services on this platform HubAlt provided by Hubalt Vanture
                             Private Limited (herein referred to as &quot;Owner&quot;) are subject to the following Terms and Conditions (hereinafter &quot;Terms
                             &amp; Conditions&quot;), all parts and subparts of which is are specifically incorporated by reference here together with the
-                            Privacy Policy and Disclaimer. Following are the Terms &amp; Conditions governing your use of www.HubAlt.com
+                            Privacy Policy and Disclaimer. Following are the Terms &amp; Conditions governing your use of www.hubalt.in
                             (the &quot;Platform&quot;), all pages on the Platform and any services provided by or on its platform (&quot;Services&quot;).
                             By accessing either directly or through a hyperlink, the Platform and or purchasing from us, you engage in our
                             “Service” and agree to be bound by the Terms &amp; Conditions including those additional terms &amp; conditions and
@@ -21,7 +21,7 @@ function Terms() {
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
-                            <span className='text-bold'>1. DEFINITIONS</span>
+                            <span className='font-bold'>1. DEFINITIONS</span>
                             <br />
                             a:- Owner, Us, We: The Owner, as the creator, operator of this Platform, makes the Platform and certain Services on it,
                             available to users. Owner, Us, We, Our, Ours and other first-person pronouns will refer to the Owner, as well as the
@@ -36,7 +36,7 @@ function Terms() {
                             <br />
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
-                            <span className='text-bold'>2. ASSENT AND ACCEPTANCE</span>
+                            <span className='font-bold'>2. ASSENT AND ACCEPTANCE</span>
                             <br />
                             By using the Platform, You warrant that You have read and reviewed these Terms &amp; Conditions and that you agree to
                             be bound by it. If You do not agree to be bound by these Terms &amp; Conditions, please leave the Platform immediately.
@@ -48,7 +48,7 @@ function Terms() {
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
 
-                            <span className='text-bold'>3. ABOUT THIS SITE</span>
+                            <span className='font-bold'>3. ABOUT THIS SITE</span>
                             <br />
                             This is an online Platform which carries out fundraising. The use of this Platform and its services is not regulated
                             under any law. We reserve the right to refuse the Service at our sole discretion to anyone, for any reason and at any
@@ -59,7 +59,7 @@ function Terms() {
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
 
-                            <span className='text-bold'>4. ACCEPTABLE USE</span>
+                            <span className='font-bold'>4. ACCEPTABLE USE</span>
                             <br />
                             You agree to not use the Platform or Services for any unlawful purpose or in a way that could damage the Platform,
                             Services and general business of the Owner.
@@ -67,7 +67,7 @@ function Terms() {
                             <br />
                             <hr className='border-1 border-black border-dotted'></hr>
 
-                            <span className='text-bold'>5. AMENDMENTS</span>
+                            <span className='font-bold'>5. AMENDMENTS</span>
                             <br />
                             We at our sole discretion from time to time may update and modify our Terms and Conditions without any notice to
                             you. You agree that the Owner has the right to modify and amend the Terms &amp; Conditions and it shall be in full force

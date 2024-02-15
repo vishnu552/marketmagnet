@@ -2,8 +2,11 @@ import Card from "../components/Card";
 import Testting from "../components/testting";
 import Slider from "../components/slider";
 import Opper from "../components/opper"
+import Fintech from "../assets/assets/fintech_log.png"
+import Ecomm from "../assets/assets/eccom.jpg"
+import Agri from "../assets/assets/agri.jpg"
 import { opportunities } from "../api/opportunities";
-
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import { useNavigate } from "react-router-dom"; //
@@ -55,16 +58,16 @@ function Aif() {
         </div>
 
         <section class="pt-20 lg:pt-[30px] pb-10 lg:pb-0 bg-[#F3F4F6] flex justify-center">
-          
+
           <div class="container w-[80%]">
             <div class="flex flex-wrap -mx-4 bronze">
-              
+
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div class="bg-white rounded-lg overflow-hidden mb-10">
                   <img
-                    src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221223125246/LIFE-INSURANCE-2.png"
+                    src={Fintech}
                     alt="image"
-                    class="w-full h-[186px]"
+                    class="w-full h-[200px]"
                   />
                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3
@@ -84,25 +87,26 @@ function Aif() {
                       Fintech
                     </h3>
                     <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
-                     Revenue in the fintech industry are expected to grow almost 3X faster than those in the traditional sector between 2024 & 2028.
+                      Revenue in the fintech industry are expected to grow almost 3X faster than those in the traditional sector between 2024 & 2028.
                     </p>
-                    <button
-                      onClick={() => navigate("/opportunities/lifeinsurance")}
-                      className="
+                    <Link to="/loginsignup">
+                      <button
+                        className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-[#3a41bd]
                      rounded-full
-                     text-base text-body-color
+                     text-xl text-body-color
                      font-medium
                      
                      hover:border-primary hover:bg-primary hover:bg-[#3a41bd] hover:text-white
                      transiation
                      "
-                    >
-                      View Details
-                    </button>
+                      >
+                        View Details
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -110,9 +114,9 @@ function Aif() {
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div class="bg-white rounded-lg overflow-hidden mb-10">
                   <img
-                    src="https://www.magmahdi.com/documents/20127/452359/6-Truths-about-general-insurance-you-must-know.jpg"
+                    src={Ecomm}
                     alt="image"
-                    class="w-full h-[186px]"
+                    class="w-full h-[220px]"
                   />
                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3
@@ -134,22 +138,25 @@ function Aif() {
                     <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
                       Ecommerce in India is expeceted to grow at a CAGR of 50% over the next 5 years.
                     </p>
-                    <burron
-                      onClick={() => navigate("/opportunities/GenralInsurance")}
-                      className="
+                    
+                    <Link to="/loginsignup">
+                      <button
+                        className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-[#3a41bd]
                      rounded-full
-                     text-base text-body-color
+                     text-xl text-body-color
                      font-medium
+                     
                      hover:border-primary hover:bg-primary hover:bg-[#3a41bd] hover:text-white
-                     transition
+                     transiation
                      "
-                    >
-                      View Details
-                    </burron>
+                      >
+                        View Details
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -157,9 +164,9 @@ function Aif() {
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div class="bg-white rounded-lg overflow-hidden mb-10">
                   <img
-                    src="https://images.moneycontrol.com/static-mcnews/2021/11/Health-insurance-770x433.jpg?impolicy=website&width=770&height=431"
+                    src={Agri}
                     alt="image"
-                    class="w-full h-[186px]"
+                    class="w-full h-[229px]"
                   />
                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3
@@ -176,49 +183,35 @@ function Aif() {
                         hover:text-primary
                         "
                     >
-                     Agritech 
-                     <br />
-                     Artificial Intelligence
-                     <br />
-                     B2B
-                     <br />
-                     Logistics
-                     <br />
-                     Leisure & Entertainment
-                     <br />
-                     & many more..
+                      Agritech
                     </h3>
-                    {/* <p class="text-base text-body-color text-bold leading-relaxed mb-7">
-                      Health insurance is a type of insurance that covers the
-                      cost of medical expenses, such as doctor’s visits,
-                      hospital stays etc. in which the insurance company agrees
-                      to pay for some or all of the individual’s or group’s
-                      medical expenses in exchange for a monthly premium.
-                    </p> */}
-                    <button
-                      onClick={() => {
-                        navigate("/opportunities/healthinsurance");
-                      }}
-                      className="
+                     <p class="text-base text-body-color text-bold leading-relaxed mb-7">
+                     Artificial Intelligence |  B2B  |  Logistics  |  Leisure & Entertainment |   & many more..
+                    </p> 
+                   <Link to="/loginsignup">
+                      <button
+                        className="
                      inline-block
                      py-2
                      px-7
-                     border border-[#E5E7EB]
+                     border border-[#3a41bd]
                      rounded-full
-                     text-base text-body-color
+                     text-xl text-body-color
                      font-medium
+                     
                      hover:border-primary hover:bg-primary hover:bg-[#3a41bd] hover:text-white
-                     transition
+                     transiation
                      "
-                    >
-                      View Details
-                    </button>
+                      >
+                        View Details
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
+
         </section>
       </div>
 
@@ -248,7 +241,7 @@ function Aif() {
         </div>
       ) : (
         <div className="grid justify-center gap-12 mt-20 mb-20 ">
-          <h1 className="text-3xl text-[#3a41bd]">LOGIN TO SEE OPPORTUNITIES</h1>
+          <h1 className="text-5xl text-bold text-[#3a41bd]">LOGIN TO SEE OPPORTUNITIES</h1>
           <button
             className="btn-primary"
             onClick={() => navigate("/login")}

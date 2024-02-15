@@ -6,7 +6,7 @@ import service from "../assets/assets/service.png"
 import adobe from "../assets/assets/adobe.jpg"
 import socialcare from "../assets/assets/social-care.png"
 import quick from "../assets/assets/quick.png"
-import startup from "../assets/assets/start-up.png"
+import startup from "../assets/assets/startup.png"
 import raise from "../assets/assets/raise.jpg"
 function raisefundd() {
     return (
