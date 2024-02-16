@@ -3,13 +3,9 @@ import { useGlobalForm } from "./context";
 import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 function Form() {
-  const { isFormOpen, closeForm } = useGlobalForm();
-  const navigate = useNavigate();
-
+  const form = document.forms['submit-to-google-sheet']
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbxQYCgMOBOiMI06A6csNsWxCD-pxMmakdtjWbvbvw7nbrmbye7rcezZ9DTJHCBhwszu/exec";
-
-  const form = document.forms["contact-form"];
 
   function handlesubmit(e) {
     e.preventDefault();

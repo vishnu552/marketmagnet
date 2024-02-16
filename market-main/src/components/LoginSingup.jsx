@@ -1,6 +1,27 @@
 import React from 'react'
+import { useGlobalForm } from "./context";
+import { FaTimes } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 function LoginSingup() {
+    
+    const form = document.forms['submit-to-google-sheet']
+    const scriptURL =
+        "https://script.google.com/macros/s/AKfycbweOK8UImEGg11pdgeFoo4d2r5l5tjtXwe7IG5OxwPiOQZUpsPg3clJ9VC6x_mVdwbENQ/exec";
+
+
+    function handlesubmit(e) {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+                alert("Thank you! your form is submitted successfully.");
+                navigate("/success");
+            })
+            .then(() => {
+                window.location.reload();
+            })
+            .catch((error) => console.error("Error!", error.message));
+    }
     return (
         <section className='w-full  flex justify-center bg-chick'>
             {/* <div className='LoginContainer' id='LoginContainer'>
@@ -66,19 +87,19 @@ function LoginSingup() {
                         <form className="formChix ">
                             <label for="chk" aria-hidden="true">Log in</label>
                             <input className="inputchix" type="email" name="email" placeholder="Email" required />
-                            <input className="inputchix" type="password" name="pswd" placeholder="Password"  />
+                            <input className="inputchix" type="password" name="pswd" placeholder="Password" />
                             <button>Log in</button>
                         </form>
                     </div>
 
                     <div className="registerChix">
-                        <form className="formChix">
+                        <form className="formChix" name='submit-to-google-sheet' onSubmit={handlesubmit}>
                             <label for="chk" aria-hidden="true">Register</label>
                             {/* <input className="inputchix" type="text" name="txt" placeholder="Username" required /> */}
-                            <input className="inputchix" type="email" name="email" placeholder="Email/Username" required />
+                            <input className="inputchix" type="email" name="Email" placeholder="Email/Username" required />
                             <input className="inputchix" type="number" name="Phone" placeholder="Enter your number" required />
-                            <input className="inputchix" type="password" name="pswd" placeholder="Password" required />
-                            <button>Register</button>
+                            <input className="inputchix" type="password" name="Pswd" placeholder="Password" required />
+                            <button type="submit">Register</button>
                         </form>
                     </div>
                 </div>
