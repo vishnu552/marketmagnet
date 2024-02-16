@@ -39,7 +39,7 @@ const ImageSlider = () => {
 
             <Link to="/loginsignup">
               <button
-                className="btn-primary relative top-[4rem] w-[160px] hover:bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300"
+                className="btn-primary relative top-[4rem] ml-10 w-[160px] hover:bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300"
                 onClick={() => navigate("/login")}
               >
                 Join Us

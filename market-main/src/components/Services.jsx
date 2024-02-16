@@ -34,7 +34,12 @@ function Services() {
       
     >
       
-      <h1 className="text-6xl text-[#3a41bd] text-bold mb-20">Process of Investment</h1>
+      <h1 className="text-6xl text-[#3a41bd] font-bold mb-10">Process of Investment</h1>
+      
+      <div className="relative flex justify-center ">
+        <hr className="w-[100px] border-2 border-solid border-gray-400" />
+      </div>
+
       <div className=" w-3/4 grid grid-cols-2 gap-10 service-grid mb-10">
         {services.map((service) => (
           <div
@@ -46,7 +51,7 @@ function Services() {
               alt={service.name}
               className="w-[100px] mb-4 "
             />
-            <h3 className="text-3xl text-black text-bold">{service.name}</h3>
+            <h3 className="text-3xl text-black font-bold">{service.name}</h3>
             <p className="text-2xl">{service.text}</p>
           </div>
           
@@ -55,7 +60,7 @@ function Services() {
       </div>
       <div className="grid justify-center gap-12 mt-20 mb-20 ">
           <button
-            className="btn-primary text-bold"
+            className="btn-primary font-bold"
             onClick={() => navigate("/login")}
           >
             Join Us

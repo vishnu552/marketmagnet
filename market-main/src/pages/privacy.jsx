@@ -23,7 +23,7 @@ function Privacy() {
                         <br />
                          Data profile regarding your online behaviour on our Platform
                         <br />
-                       <span className='text-[#3a41bd]'> Why We Collect Your Data</span>
+                       <span className=''> Why We Collect Your Data</span>
                        <br />
                         We are collecting your data for several reasons:
                         <br />

@@ -18,27 +18,27 @@ function range() {
         <div className="lg:flex">
           <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12 ">
             
-            <div className='mt-[60px] flex gap-[40px]'>
-              <li className='text-4xl text-blue-900'>Fintech</li>
-              <li className='text-4xl text-blue-900'>AI</li>
-              <li className='text-4xl text-blue-900'>Ecommerce</li>
-              <li className='text-4xl text-blue-900'>Logistics</li>
+            <div className='mt-40 sm:mt-[60px]  sm:flex gap-[20px] '>
+              <li className='text-4xl text-blue-900'>Fintech &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>AI &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>Ecommerce &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>Logistics &nbsp;|</li>
             </div>
 
-            <div className=' flex gap-[40px]'>
-              <li className='text-4xl text-blue-900'>Healthcare Tech </li>
-              <li className='text-4xl text-blue-900'>B2B   </li>
-              <li className='text-4xl text-blue-900'>Leisure & Entertainment  </li>
+            <div className=' sm:flex gap-[20px]'>
+              <li className='text-4xl text-blue-900'>Healthcare Tech  &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>B2B &nbsp;|  </li>
+              <li className='text-4xl text-blue-900'>Leisure & Entertainment &nbsp;|  </li>
             </div>
 
-            <div className=' flex gap-[40px]'>
-              <li className='text-4xl text-blue-900'>Edtech</li>
-              <li className='text-4xl text-blue-900'>Real Estate</li>
-              <li className='text-4xl text-blue-900'>Delivery Services </li>
-              <li className='text-4xl text-blue-900'>Agritech </li>
+            <div className=' sm:flex gap-[20px]'>
+              <li className='text-4xl text-blue-900'>Edtech &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>Real Estate &nbsp;|</li>
+              <li className='text-4xl text-blue-900'>Delivery Services &nbsp;| </li>
+              <li className='text-4xl text-blue-900'>Agritech  &nbsp;|</li>
             </div>
 
-              <li className='text-4xl text-blue-900'> & More..</li>
+              <li className='text-4xl sm:flex text-blue-900'> & More..</li>
 
             <br />
             <br />
