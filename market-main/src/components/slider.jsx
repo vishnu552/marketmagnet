@@ -22,7 +22,7 @@ const ImageSlider = () => {
           <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12 ">
 
             <p className=" relative top-[5rem] sm:text-3xl text-gray-700 pl-12 dark:text-gray-300 text-3xl lg:w-11/12">
-              Hubalt Venture Private Limited helps investors to come toghter and back startups & entrepreneur.
+              Hubalt Venture Private Limited helps investors to come together and back startups & entrepreneur.
             </p>
 
             <ul className="relative top-20  pl-20 ">

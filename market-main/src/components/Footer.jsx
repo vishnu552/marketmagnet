@@ -18,7 +18,7 @@ function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              
+
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
 
                 <Link to="/Faq">
@@ -39,7 +39,7 @@ function Footer() {
             </div>
 
             <div>
-            
+
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <Link to="/privacy">
                   <li className="mb-4">
@@ -81,13 +81,16 @@ function Footer() {
             </p>
           </div>
 
-          <div className="w-[80%] ">
+          {/* logo */}
+          {/* <div className="w-[80%] ">
             <div className="w-full gap-20 flex justify-center">
               <img src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" className="relative top-6 w-[200px]" alt="" />
 
               <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/nw6o7plxlj6ehfcwwddx" className=" h-[100px]" alt="" />
             </div>
-          </div>
+          </div> */}
+
+
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <a
               href="https://www.linkedin.com/company/hubalt/" target="_blank"

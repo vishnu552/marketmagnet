@@ -15,6 +15,10 @@ function raisefundd() {
                 <h1 className=" text-center text-6xl text-bold text-[#3a41bd]">
                     Ongoing Funding Campaign
                 </h1>
+
+                <div className="relative flex justify-center mt-10">
+                    <hr className="w-[100px] border-2 border-solid border-gray-400" />
+                </div>
                 <ComponyLogo />
             </div>
 
@@ -27,18 +31,18 @@ function raisefundd() {
 
                 <div>
                     <div className=' flex justify-evenly w-full p-10'>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center   '>
                             <img className='w-[100px]' src={help} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold '>Easy Onboarding</h1>
+                            <h1 className='text-center pt-5 mt-7 text-3xl text-[#3a41bd] text-bold '>Easy Onboarding</h1>
                         </div>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center '>
                             <img className='w-[100px]' src={bullhorn} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold'>Acess to potential Investors</h1>
+                            <h1 className='text-center pt-5 text-3xl mt-7 text-[#3a41bd] text-bold'>Acess to potential Investors</h1>
 
                         </div>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center'>
                             <img className='w-[100px]' src={service} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold'>Technology Support</h1>
+                            <h1 className='text-center pt-5 text-3xl mt-7 text-[#3a41bd] text-bold'>Technology Support</h1>
 
                         </div>
                     </div>
@@ -52,19 +56,19 @@ function raisefundd() {
 
 
                     <div className=' flex justify-evenly w-full p-10'>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center  '>
                             <img className='w-[100px]' src={socialcare} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold'>Community Building</h1>
+                            <h1 className='text-center pt-5 text-3xl mt-7 text-[#3a41bd] text-bold'>Community Building</h1>
 
                         </div>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center   '>
                             <img className='w-[100px]' src={quick} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold'>Speedy Process</h1>
+                            <h1 className='text-center pt-5 text-3xl mt-7 text-[#3a41bd] text-bold'>Speedy Process</h1>
 
                         </div>
-                        <div className='w-[20%] flex flex-col items-center  bg-white shadow-2xl '>
+                        <div className='w-[20%] flex flex-col items-center   '>
                             <img className='w-[100px]' src={startup} alt="" />
-                            <h1 className='text-center pt-5 text-3xl text-[#3a41bd] text-bold'>Startup Growth</h1>
+                            <h1 className='text-center pt-5 text-3xl mt-7 text-[#3a41bd] text-bold'>Startup Growth</h1>
 
                         </div>
                     </div>
@@ -91,7 +95,7 @@ function raisefundd() {
                 </div>
             </div>
 
-            
+
         </div>
     )
 }

@@ -47,6 +47,9 @@ function Aif() {
             Available Startup Opportunities
           </h1>
 
+          <div className="relative flex justify-center mb-20 mt-5">
+            <hr className="w-[100px] border-2 border-solid border-gray-400" />
+          </div>
           {/* <div className="flex justify-center">
             <p className="text-center w-[80%] py-10 text-2xl">
               There are two main types of insurance in India: Life Insurance and
@@ -63,7 +66,7 @@ function Aif() {
             <div class="flex flex-wrap -mx-4 bronze">
 
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                <div class="bg-white rounded-lg overflow-hidden mb-10">
+                <div class="bg-white rounded-lg overflow-hidden shadow-xl mb-10">
                   <img
                     src={Fintech}
                     alt="image"
@@ -112,7 +115,7 @@ function Aif() {
               </div>
 
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                <div class="bg-white rounded-lg overflow-hidden mb-10">
+                <div class="bg-white rounded-lg overflow-hidden shadow-xl mb-10">
                   <img
                     src={Ecomm}
                     alt="image"
@@ -138,7 +141,7 @@ function Aif() {
                     <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
                       Ecommerce in India is expeceted to grow at a CAGR of 50% over the next 5 years.
                     </p>
-                    
+
                     <Link to="/loginsignup">
                       <button
                         className="
@@ -162,11 +165,11 @@ function Aif() {
               </div>
 
               <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                <div class="bg-white rounded-lg overflow-hidden mb-10">
+                <div class="bg-white rounded-lg overflow-hidden shadow-xl mb-10">
                   <img
                     src={Agri}
                     alt="image"
-                    class="w-full h-[229px]"
+                    class="w-full h-[220px]"
                   />
                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3
@@ -183,12 +186,12 @@ function Aif() {
                         hover:text-primary
                         "
                     >
-                      Agritech
+                      Various Sectors
                     </h3>
-                     <p class="text-base text-body-color text-bold leading-relaxed mb-7">
-                     Artificial Intelligence |  B2B  |  Logistics  |  Leisure & Entertainment |   & many more..
-                    </p> 
-                   <Link to="/loginsignup">
+                    <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
+                      Artificial Intelligence |  B2B  |  Logistics  |  Leisure & Entertainment |   & many more..
+                    </p>
+                    <Link to="/loginsignup">
                       <button
                         className="
                      inline-block

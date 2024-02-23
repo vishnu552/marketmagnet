@@ -34,7 +34,7 @@ function Services() {
       
     >
       
-      <h1 className="text-6xl text-[#3a41bd] font-bold mb-10">Process of Investment</h1>
+      <h1 className="text-6xl text-[#3a41bd] font-bold mb-5 pt-10">Process of Investment</h1>
       
       <div className="relative flex justify-center ">
         <hr className="w-[100px] border-2 border-solid border-gray-400" />

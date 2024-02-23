@@ -20,7 +20,7 @@ function contectt() {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
                                 <div class="ml-4 text-3xl tracking-wide font-semibold w-[500px]">
-                                    iNest Jodhpur ,Polytechnic compound , Jodhpur  , (Raj) , 342003 India
+                                    18/CHB Jodhpur  , (Raj) , 342003 India
                                 </div>
                             </div>
 
@@ -44,7 +44,7 @@ function contectt() {
                         </div>
 
                       
-                        <iframe className='w-full h-[30vh]' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14312.190572190595!2d73.0254566!3d26.2601171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418dcaf4306809%3A0xba2f9a0cecadfea!2sIStart%20Nest%20Incubation%20Center!5e0!3m2!1sen!2sin!4v1708063134655!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        {/* <iframe className='w-full h-[30vh]' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14312.190572190595!2d73.0254566!3d26.2601171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418dcaf4306809%3A0xba2f9a0cecadfea!2sIStart%20Nest%20Incubation%20Center!5e0!3m2!1sen!2sin!4v1708063134655!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                         
 
                     </div>

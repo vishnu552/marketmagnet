@@ -48,23 +48,23 @@ const Navbar = () => {
           }`}
       >
         <div className="text-sm  lg:flex-grow">
-          <ul className=" md:flex justify-end">
+          <ul className=" md:flex justify-end ">
          
             <Link to="/">
-              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]">
                Home
               </li>
             </Link>
 
             <Link to="/opportunities">
-              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]">
                 Opportunities
               </li>
             </Link>
            
 
             <Link to="/Raisefunds">
-              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]">
                 Raise Funds
               </li>
             </Link> 
@@ -73,14 +73,14 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/about"
-                  className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
+                  className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]"
                 >
                   About us
                 </Link>
 
                 <Link
                   to="/Faq"
-                  className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]"
+                  className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]"
                 >
                   FAQ
                 </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
              
 
             <Link to="/loginsignup">
-              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl text-bold hover:text-[#3a41bd]">
+              <li className="block hover:underline mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-2xl font-bold hover:text-[#3a41bd]">
                 Join us
               </li>
             </Link>
