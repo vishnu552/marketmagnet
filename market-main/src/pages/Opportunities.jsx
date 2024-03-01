@@ -5,6 +5,7 @@ import Opper from "../components/opper"
 import Fintech from "../assets/assets/fintech_log.png"
 import Ecomm from "../assets/assets/eccom.jpg"
 import Agri from "../assets/assets/agri.jpg"
+import Insurence from "../assets/assets/insurecence.avif"
 import { opportunities } from "../api/opportunities";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -192,6 +193,55 @@ function Aif() {
                       Artificial Intelligence |  B2B  |  Logistics  |  Leisure & Entertainment |   & many more..
                     </p>
                     <Link to="/loginsignup">
+                      <button
+                        className="
+                     inline-block
+                     py-2
+                     px-7
+                     border border-[#3a41bd]
+                     rounded-full
+                     text-xl text-body-color
+                     font-medium
+                     
+                     hover:border-primary hover:bg-primary hover:bg-[#3a41bd] hover:text-white
+                     transiation
+                     "
+                      >
+                        View Details
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+                <div class="bg-white rounded-lg overflow-hidden shadow-xl mb-10">
+                  <img
+                    src={Insurence}
+                    alt="image"
+                    class="w-full h-[220px]"
+                  />
+                  <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                    <h3
+                      className="
+                        font-bold
+                        text-[#3a41bd] text-xl
+                        sm:text-[22px]
+                        md:text-xl
+                        lg:text-[22px]
+                        xl:text-4xl
+                        2xl:text-[22px]
+                        mb-4
+                        block
+                        hover:text-primary
+                        "
+                    >
+                      Insurance
+                    </h3>
+                    <p class="text-xl text-body-color text-bold leading-relaxed mb-7">
+                    Overview of Insurance
+                    </p>
+                    <Link to="/Insurence">
                       <button
                         className="
                      inline-block

@@ -56,7 +56,8 @@ function About() {
         <hr className="w-[100px] border-2 border-solid border-gray-400" />
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 justify-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 justify-center">
+        
         <div class="w-full  rounded-lg p-12 flex flex-col justify-center items-center">
           <div class="mb-8">
             <img
@@ -66,7 +67,7 @@ function About() {
             />
           </div>
 
-
+        
           <div class="text-center">
             <p class="text-4xl text-gray-900 font-bold mb-2">
               Prakash Sharma
@@ -75,6 +76,7 @@ function About() {
               Founder &amp; Chief Executive Officer
             </p>
           </div>
+
           <div className="flex gap-10 mt-5">
             <a
               href="https://www.linkedin.com/in/prakash-sharma-2b31673a/" target="_blank"
@@ -84,6 +86,40 @@ function About() {
             </a>
 
           </div>
+
+
+        </div>
+
+        <div class="w-full border-l-2  rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="mb-8">
+            <img
+              class="object-center object-cover rounded-full h-36 w-36"
+              src="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=900&t=st=1703425651~exp=1703426251~hmac=ee8a3b09ea5ce0d9c06615a61735d093de58307b074f5005e84615ffa7a1657e"
+              alt="photo"
+            />
+          </div>
+
+        
+          <div class="text-center ">
+            <p class="text-4xl text-gray-900 font-bold mb-2">
+              Rakesh Shankar
+            </p>
+            <p class="text-3xl text-gray-900 font-normal">
+              Channel Head-Insurance
+            </p>
+          </div>
+
+          <div className="flex gap-10 mt-5">
+            <a
+              href="https://www.linkedin.com/in/rakesh-shankar-9251b1245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+              className=" text-[#0077b5] hover:text-gray-900 dark:hover:text-white text-4xl"
+            >
+              <FaLinkedin />
+            </a>
+
+          </div>
+
+
         </div>
       </div>
 

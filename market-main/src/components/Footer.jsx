@@ -82,13 +82,18 @@ function Footer() {
           </div>
 
           {/* logo */}
-          {/* <div className="w-[80%] ">
-            <div className="w-full gap-20 flex justify-center">
-              <img src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" className="relative top-6 w-[200px]" alt="" />
+          <div className="w-[30%] ">
+            <div className="w-full flex flex-col justify-center">
+              {/* <img src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" className="relative top-6 w-[200px]" alt="" /> */}
 
-              <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/nw6o7plxlj6ehfcwwddx" className=" h-[100px]" alt="" />
+              <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/nw6o7plxlj6ehfcwwddx" className=" w-[150px]" alt="" />
+
+              <div className=" items-center">
+                 <h2 className="font-bold text-xl">Registration ID NO :- 5F63239</h2>
+                <p className="font-bold">Approved by Department of IT and Communication Govt of Rajasthan</p>
+              </div>
             </div>
-          </div> */}
+          </div>
 
 
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
