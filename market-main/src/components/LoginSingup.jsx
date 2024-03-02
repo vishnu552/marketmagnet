@@ -7,7 +7,7 @@ function LoginSingup() {
     
     const form = document.forms['submit-to-google-sheet']
     const scriptURL =
-        "https://script.google.com/macros/s/AKfycbweOK8UImEGg11pdgeFoo4d2r5l5tjtXwe7IG5OxwPiOQZUpsPg3clJ9VC6x_mVdwbENQ/exec";
+        "https://script.google.com/macros/s/AKfycbzTcRkgLAxvEUY6yFRmv3Wcwd59fAzQ2H2z47PwYxvsaKYWporliFDAb4NveTfXwg7QIw/exec";
 
 
     function handlesubmit(e) {
@@ -84,10 +84,12 @@ function LoginSingup() {
                     <input type="checkbox" id="chk" aria-hidden="true" />
 
                     <div className="LoginChix">
-                        <form className="formChix ">
+                        <form className="formChix">
                             <label for="chk" aria-hidden="true">Log in</label>
+
                             <input className="inputchix" type="email" name="email" placeholder="Email" required />
-                            <input className="inputchix" type="password" name="pswd" placeholder="Password" />
+
+                            <input className="inputchix" type="password" name="Password" placeholder="Password" />
                             <button>Log in</button>
                         </form>
                     </div>
@@ -98,7 +100,7 @@ function LoginSingup() {
                             {/* <input className="inputchix" type="text" name="txt" placeholder="Username" required /> */}
                             <input className="inputchix" type="email" name="Email" placeholder="Email/Username" required />
                             <input className="inputchix" type="number" name="Phone" placeholder="Enter your number" required />
-                            <input className="inputchix" type="password" name="Pswd" placeholder="Password" required />
+                            <input className="inputchix" type="password" name="Password" placeholder="Password" required />
                             <button type="submit">Register</button>
                         </form>
                     </div>
