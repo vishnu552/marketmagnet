@@ -4,24 +4,6 @@ import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 function LoginSingup() {
-    
-    const form = document.forms['submit-to-google-sheet']
-    const scriptURL =
-        "https://script.google.com/macros/s/AKfycbyHbsbnyyE0CRoWw7Ra0AaFAL1pRDv8keNFlI1f5YU1u3RnM4UDQU7g0OtsdVoYPMAj/exec";
-
-
-    function handlesubmit(e) {
-        e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-            .then((response) => {
-                alert("Thank you! your form is submitted successfully.");
-                navigate("/success");
-            })
-            .then(() => {
-                window.location.reload();
-            })
-            .catch((error) => console.error("Error!", error.message));
-    }
     return (
         <section className='w-full  flex justify-center bg-chick'>
             {/* <div className='LoginContainer' id='LoginContainer'>
@@ -95,12 +77,14 @@ function LoginSingup() {
                     </div>
 
                     <div className="registerChix">
-                        <form className="formChix" name='submit-to-google-sheet' onSubmit={handlesubmit}>
+                        <form className="formChix"
+                            action="https://formsubmit.co/socialhubalt@gmail.com" method="POST">
+
                             <label for="chk" aria-hidden="true">Register</label>
                             {/* <input className="inputchix" type="text" name="txt" placeholder="Username" required /> */}
-                            <input className="inputchix" type="email" name="Email" placeholder="Email/Username" required />
-                            <input className="inputchix" type="number" name="Phone" placeholder="Enter your number" required />
-                            <input className="inputchix" type="password" name="Password" placeholder="Password" required />
+                            <input className="inputchix" type="email" name="email" placeholder="Email/Username" required />
+                            <input className="inputchix" type="number" name="phone" placeholder="Enter your number" required />
+                            <input className="inputchix" type="password" name="password" placeholder="Password" required />
                             <button type="submit">Register</button>
                         </form>
                     </div>
