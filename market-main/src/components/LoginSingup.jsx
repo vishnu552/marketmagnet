@@ -7,7 +7,7 @@ function LoginSingup() {
     
     const form = document.forms['submit-to-google-sheet']
     const scriptURL =
-        "https://script.google.com/macros/s/AKfycbzTcRkgLAxvEUY6yFRmv3Wcwd59fAzQ2H2z47PwYxvsaKYWporliFDAb4NveTfXwg7QIw/exec";
+        "https://script.google.com/macros/s/AKfycbyHbsbnyyE0CRoWw7Ra0AaFAL1pRDv8keNFlI1f5YU1u3RnM4UDQU7g0OtsdVoYPMAj/exec";
 
 
     function handlesubmit(e) {
